@@ -36,7 +36,7 @@ a:active {
 }
 
 .hs-content-wrapper {
-    width: 4010px;
+    width: 3510px;
     position: absolute;
     overflow: hidden;
     height: 100%;
@@ -192,14 +192,14 @@ a.hs-totop-link {
 
 .hs-headline .img-wrap {
     display: block;
-    width: 150px;
+    width: 146px;
     height: 150px;
     border: 5px solid rgba(120, 129, 149, 0.19);
     margin: auto;
 }
 
 .hs-headline .img-wrap img {
-    width: 140px;
+    width: 136px;
     height: 140px;
     padding: 5px;
     opacity: 0.5;
@@ -348,20 +348,20 @@ a.hs-totop-link {
 .hs-menu .aside-footer {
     position: absolute;
     bottom: 0;
-    height: 40px;
+    height: 45px;
     width: 100%;
-    line-height: 44px;
+    line-height: 50px;
     text-align: center;
     background: #262A34;
 }
 
 .hs-menu .aside-footer a {
-    width: 25px;
-    height: 25px;
-    line-height: 26px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     padding: 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0 2px;
     background: #2b303b;
     display: inline-block;
@@ -387,11 +387,11 @@ a.hs-totop-link {
 }
 
 .aside1 .aside-content {
-    width: 500px;
+    width: 550px;
     height: 50px;
     position: absolute;
-    left: -225px;
-    bottom: 235px;
+    left: -250px;
+    bottom: 270px;
     line-height: 50px;
     text-align: left;
     -webkit-transform: rotate(-90deg);
@@ -423,13 +423,13 @@ a.hs-totop-link {
 
 .aside1 .aside-content .part1 {
     font-family: Montserrat;
-    margin-right: 7px;
+    margin-right: 10px;
     font-size: 19px;
 }
 
 .aside1 .aside-content .part2 {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #788195;
@@ -558,8 +558,8 @@ ul.marquee li {
 }
 
 .about-section .aboutInfo-contanier .about-cover {
-    background: linear-gradient(rgba(43, 48, 59, 0.75), rgba(43, 48, 59, 0.75)), url(../images/cover.jpg) no-repeat;
-    background: -webkit-linear-gradient(rgba(43, 48, 59, 0.75), rgba(43, 48, 59, 0.75)), url(../images/cover.jpg) no-repeat;
+    background: linear-gradient(rgba(43, 48, 59, 0.75), rgba(43, 48, 59, 0.75)), url(../images/tree.jpg) no-repeat;
+    background: -webkit-linear-gradient(rgba(43, 48, 59, 0.75), rgba(43, 48, 59, 0.75)), url(../images/tree.jpg) no-repeat;
     background-size: 100%;
     height: 265px;
     position: relative;
@@ -793,9 +793,9 @@ ul.marquee li {
     opacity: 0;
     overflow: hidden;
     width: 100%;
-    -webkit-animation: rotateWord 18s linear infinite 0s;
-    -ms-animation: rotateWord 18s linear infinite 0s;
-    animation: rotateWord 18s linear infinite 0s;
+    -webkit-animation: rotateWord 12s linear infinite 0s;
+    -ms-animation: rotateWord 12s linear infinite 0s;
+    animation: rotateWord 12s linear infinite 0s;
 }
 
 .rw-words span:nth-child(2) {
@@ -816,11 +816,11 @@ ul.marquee li {
     animation-delay: 9s;
 }
 
-.rw-words span:nth-child(5) {
-    -webkit-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
+/*.rw-words span:nth-child(5) {*/
+/*    -webkit-animation-delay: 12s;*/
+/*    -ms-animation-delay: 12s;*/
+/*    animation-delay: 12s;*/
+/*}*/
 
 @-webkit-keyframes rotateWord {
     0% {
@@ -1392,8 +1392,8 @@ ul.marquee li {
 
 .publication-section .media h4 {
     margin-top: 0px;
-    margin-bottom: 9px;
-    font-size: 10px;
+    margin-bottom: 2px;
+    font-size: 12px;
 }
 
 .publication-section .media hr {
@@ -1423,8 +1423,11 @@ ul.marquee li {
 }
 
 .publication-section .media .media-body {
+    font-size: 15px;
     padding-left: 10px;
+    padding-right: 15px;
     border-left: 1px solid #DBDBE0;
+    /*text-transform: uppercase;*/
 }
 
 .publication-section .media .date {
@@ -1436,7 +1439,7 @@ ul.marquee li {
     display: block;
     text-align: center;
     line-height: 100%;
-    font-size: 40px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.82);
 }
 
@@ -1444,7 +1447,7 @@ ul.marquee li {
     width: 100%;
     display: inline-block;
     color: rgba(255, 255, 255, 0.82);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     text-align: center;
     padding-bottom: 3px;
@@ -1456,6 +1459,7 @@ ul.marquee li {
     display: block;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.13);
+    font-size: 16px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.82);
 }
@@ -1533,9 +1537,9 @@ ul.marquee li {
     font-weight: 300;
     line-height: 21px;
     margin-bottom: 6px;
-    font-size: 13px;
+    font-size: 14px;
     font-family: Montserrat;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .publication-detail .publication_authors {
@@ -1971,7 +1975,7 @@ ul.marquee li {
 .teaching-section .teaching h4 {
     margin-top: 0;
     margin-bottom: 9px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .teaching-section .teaching-wrapper {

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>PULSE | RESPONSIVE ACADEMIC PERSONAL VCARD TEMPLATE</title>
+    <title>Ayan Paul -- Academic Profile</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="">
@@ -14,16 +14,39 @@
     <!-- CSS | STYLE -->
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/academicons.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/linecons.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/colors/green.css" />
+    <link rel="stylesheet" type="text/css" href="css/colors/light-green.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- CSS | Google Fonts -->
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600' rel='stylesheet' type='text/css'>
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$']],
+            processEscapes: true},
+    showProcessingMessages: false,
+    messageStyle: "none"
+    });
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function(){
+            var includes = $('[data-include]');
+            jQuery.each(includes, function(){
+                var file = $(this).data('include') + '.html';
+                $(this).load(file);
+            });
+        });
+    </script>
 
     <noscript>
         <style>
@@ -47,24 +70,24 @@
         <!-- Sidebar-->
         <div class="aside1">
             <a class="contact-button"><i class="fa fa-paper-plane"></i></a>
-            <a class="download-button"><i class="fa fa-cloud-download"></i></a>
-            <div class="aside-content"><span class="part1">PULSE</span><span class="part2">Academic Personal Vcard</span>
+<!--            <a class="download-button"><i class="fa fa-cloud-download"></i></a>-->
+            <div class="aside-content"><span class="part1">Ayan Paul</span><span class="part2">DESY, Hamburg & Humboldt Universit&#228;t zu Berlin</span>
             </div>
         </div>
         <aside class="hs-menu" id="hs-menu">
-            <!-- <canvas id="demo-canvas"></canvas> -->
+<!--             <canvas id="demo-canvas"></canvas>-->
 
-            <!-- Profil Image-->
+            <!-- Profile Image-->
             <div class="hs-headline">
                 <a id="my-link" href="#my-panel"><i class="fa fa-bars"></i></a>
                 <a href="#" class="download"><i class="fa fa-cloud-download"></i></a>
                 <div class="img-wrap">
-                    <img src="images/portrait.jpg" alt="" width="150" height="150" />
+                    <img src="images/profile.jpg" alt="" width="136" height="150" />
                 </div>
                 <div class="profile_info">
-                    <h1>Johnny smith</h1>
-                    <h4>PhD Computer Science</h4>
-                    <h6><span class="fa fa-location-arrow"></span>&nbsp;&nbsp;&nbsp;San Francisco , CA</h6>
+                    <h1>Ayan Paul</h1>
+                    <h4>PhD Theoretical Particle Physics</h4>
+                    <h6><span class="fa fa-location-arrow"></span>&nbsp;&nbsp;&nbsp;Berlin, Germany</h6>
                 </div>
                 <div style="clear:both"></div>
             </div>
@@ -73,23 +96,24 @@
 
             <!-- menu -->
             <nav>
-                <a href="#section1"><span class="menu_name">ABOUT</span><span class="fa fa-home"></span> </a>
-                <a href="#section2"><span class="menu_name">RESUME</span><span class="fa fa-newspaper-o"></span> </a>
+                <a href="#section1"><span class="menu_name">PROFILE</span><span class="fa fa-home"></span> </a>
+                <a href="#section2"><span class="menu_name">ACADEMICS</span><span class="fa fa-newspaper-o"></span> </a>
                 <a href="#section3"><span class="menu_name">PUBLICATIONS</span><span class="fa fa-pencil"></span> </a>
                 <a href="#section4"><span class="menu_name">RESEARCH</span><span class="fa fa-flask"></span> </a>
                 <a href="#section5"><span class="menu_name">TEACHING</span><span class="fa fa-book"></span> </a>
                 <a href="#section6"><span class="menu_name">SKILLS</span><span class="fa fa-diamond"></span> </a>
-                <a href="#section7"><span class="menu_name">WORKS</span><span class="fa fa-archive"></span> </a>
+<!--                <a href="#section7"><span class="menu_name">WORKS</span><span class="fa fa-archive"></span> </a>-->
                 <a href="#section8"><span class="menu_name">CONTACT</span><span class="fa fa-paper-plane"></span> </a>
             </nav>
             <!-- end menu-->
             <!-- social icons -->
             <div class="aside-footer">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                <a href="#"><i class="fa fa fa-github"></i></a>
+                <a href="files/resume.pdf" target="_blank"><i class="ai ai-cv"></i></a>
+<!--                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>-->
+                <a href="http://inspirehep.net/author/profile/Ayan.Paul.1" target="_blank"><i class="ai ai-inspire"></i></a>
+                <a href="https://scholar.google.it/citations?user=CWtp0rQAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i></a>
+                <a href="https://github.com/talismanbrandi" target="_blank"><i class="fa fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayan--paul" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
             <!-- end social icons -->
         </aside>
@@ -111,28 +135,28 @@
                     <div><a href="" class="next-page arrow"><i class="fa fa-angle-right"></i></a>
                     </div>
                     <!-- News scroll -->
-                    <div class="news-scroll">
-                        <span><i class="fa fa-line-chart"></i>RECENT ACTIVITY : </span>
-                        <ul id="marquee" class="marquee">
-                            <li>
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.</li>
-                            <li>
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.
-                            </li>
-                            <li>
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.
-                            </li>
-                            <li>
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.
-                            </li>
-                            <li>
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.
-                            </li>
-                            <li>
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.
-                            </li>
-                        </ul>
-                    </div>
+<!--                    <div class="news-scroll">-->
+<!--                        <span><i class="fa fa-line-chart"></i>RECENT ACTIVITY : </span>-->
+<!--                        <ul id="marquee" class="marquee">-->
+<!--                            <li>-->
+<!--                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.</li>-->
+<!--                            <li>-->
+<!--                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce tincidunt adipiscing,massa.-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
                     <!-- End News scroll -->
                 </div>
             </div>
@@ -140,49 +164,51 @@
 
             <!-- hs-content-wrapper -->
             <div class="hs-content-wrapper">
+<!--                    <div data-include="profile"></div>-->
+
                 <!-- About section -->
                 <article class="hs-content about-section" id="section1">
                     <span class="sec-icon fa fa-home"></span>
                     <div class="hs-inner">
                         <span class="before-title">.01</span>
-                        <h2>ABOUT</h2>
+                        <h2>PROFILE</h2>
                         <span class="content-title">PERSONAL DETAILS</span>
                         <div class="aboutInfo-contanier">
                             <div class="about-card">
-                                <div class="face2 card-face">
-                                    <div id="cd-google-map">
-                                        <div id="google-container"></div>
-                                        <div id="cd-zoom-in"></div>
-                                        <div id="cd-zoom-out"></div>
-                                        <address>8690 Paul Street, San fransico</address>
-                                        <div class="back-cover" data-card-back="data-card-back"><i class="fa fa-long-arrow-left"></i>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!--                                <div class="face2 card-face">-->
+                                <!--                                    <div id="cd-google-map">-->
+                                <!--                                        <div id="google-container"></div>-->
+                                <!--                                        <div id="cd-zoom-in"></div>-->
+                                <!--                                        <div id="cd-zoom-out"></div>-->
+                                <!--                                        <address>Notkestra. 85, 22607 Hamburg, Germany</address>-->
+                                <!--                                        <div class="back-cover" data-card-back="data-card-back"><i class="fa fa-long-arrow-left"></i>-->
+                                <!--                                        </div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
                                 <div class="face1 card-face">
                                     <div class="about-cover card-face">
-                                        <a class="map-location" data-card-front="data-card-front"><img src="images/map-icon.png" alt="">
-                                        </a>
+                                        <!--                                        <a class="map-location" data-card-front="data-card-front"><img src="images/map-icon.png" alt="">-->
+                                        <!--                                        </a>-->
                                         <div class="about-details">
-                                            <div><span class="fa fa-inbox"></span><span class="detail">Yourmail@mail.com</span>
+                                            <div><span class="fa fa-inbox"></span><span class="detail"><a href="mailto:apaul2@alumni.nd.edu">apaul2@alumni.nd.edu></a></span>
                                             </div>
-                                            <div><span class="fa fa-phone"></span><span class="detail">00 123 456 789</span>
+                                            <div><span class="fa fa-phone"></span><span class="detail">+393348094805</span>
                                             </div>
                                         </div>
 
                                         <div class="cover-content-wrapper">
                                             <span class="about-description">Hello. I am a<span class="rw-words">
-                                                <span><strong>Designer</strong></span>
-                                            <span><strong>Researcher</strong></span>
-                                            <span><strong>Programmer</strong></span>
-                                            <span><strong>Dreamer</strong></span>
-                                            <span><strong>Leader</strong></span>
+<!--                                                <span><strong>Designer</strong></span>-->
+                                                <span><strong>Researcher</strong></span>
+                                                <span><strong>Physicist</strong></span>
+                                                <span><strong>Thinker</strong></span>
+                                                <span><strong>Creator</strong></span>
                                             </span>
-                                            <br>I am passionate about programming and coding
-                                            <br>Welcome to my Personal and Academic profile</span>
+                                            <br>I work as a Theoretical Particle Physicist
+                                            <br>looking at the world of Flavour and Higgs Physics</span>
                                             <span class="status">
                                             <span class="fa fa-circle"></span>
-                                            <span class="text">Available as <strong>freelance</strong></span>
+                                            <span class="text">Specialist in <strong>Physics Computing</strong></span>
                                             </span>
                                         </div>
                                     </div>
@@ -297,55 +323,17 @@
                 </article>
                 <!-- End About Section -->
 
+
                 <!-- Resume Section -->
                 <article class="hs-content resume-section" id="section2">
                     <span class="sec-icon fa fa-newspaper-o"></span>
                     <div class="hs-inner">
                         <span class="before-title">.02</span>
-                        <h2>RESUME</h2>
+                        <h2>ACADEMICS</h2>
                         <!-- Resume Wrapper -->
                         <div class="resume-wrapper">
                             <ul class="resume">
                                 <!-- Resume timeline -->
-                                <li class="time-label">
-                                    <span class="content-title">EDUCATION</span>
-                                </li>
-                                <li>
-                                    <div class="resume-tag">
-                                        <span class="fa fa-graduation-cap"></span>
-                                        <div class="resume-date">
-                                            <span>2008</span>
-                                            <div class="separator"></div>
-                                            <span>2010</span>
-                                        </div>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>
-                                        <h3 class="timeline-header">COMPUTER ENGINEERING - PHD</h3>
-                                        <div class="timeline-body">
-                                            <h4>UNIVERSITY OF CALIFORNIA</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="resume-tag">
-                                        <span class="fa fa-graduation-cap"></span>
-                                        <div class="resume-date">
-                                            <span>2004</span>
-                                            <div class="separator"></div>
-                                            <span>2008</span>
-                                        </div>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>
-                                        <h3 class="timeline-header">ELECTRONICS ENGINEERING</h3>
-                                        <div class="timeline-body">
-                                            <h4>UNIVERSITY OF CALIFORNIA</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
-                                        </div>
-                                    </div>
-                                </li>
                                 <li class="time-label">
                                     <span class="content-title">ACADEMIC AND PROFESSIONAL POSITIONS</span>
                                 </li>
@@ -353,17 +341,20 @@
                                     <div class="resume-tag">
                                         <span class="fa fa-university"></span>
                                         <div class="resume-date">
-                                            <span>2009</span>
+                                            <span>2017</span>
                                             <div class="separator"></div>
-                                            <span>2010</span>
+                                            <span></span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>
-                                        <h3 class="timeline-header">GRADUATE STUDENT RESEARCHER</h3>
+                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>Berlin, Germany</span>
+                                        <h3 class="timeline-header">FELLOW</h3>
                                         <div class="timeline-body">
-                                            <h4>OXFORD UNIVERSITY COMPUTING LABORATORY</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>DESY, HAMBURG</h4>
+                                        </div>
+                                        <h3 class="timeline-header">SENIOR SCIENTIST</h3>
+                                        <div class="timeline-body">
+                                            <h4>HUMBOLDT UNIVERSIT&Auml;T ZU BERLIN</h4>
                                         </div>
                                     </div>
                                 </li>
@@ -371,17 +362,17 @@
                                     <div class="resume-tag">
                                         <span class="fa fa-university"></span>
                                         <div class="resume-date">
-                                            <span>2009</span>
+                                            <span>2012</span>
                                             <div class="separator"></div>
-                                            <span>2010</span>
+                                            <span>2017</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>
-                                        <h3 class="timeline-header">LAB ASSISTANT</h3>
+                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>ROMA, ITALY</span>
+                                        <h3 class="timeline-header">ASSEGNISTA DI RICERCA</h3>
                                         <div class="timeline-body">
-                                            <h4>OXFORD UNIVERSITY COMPUTING LABORATORY</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>INFN, SEZIONE DI ROMA I</h4>
+                                            <span>ERC GRANT "NPFLAVOUR"</span>
                                         </div>
                                     </div>
                                 </li>
@@ -389,59 +380,135 @@
                                     <div class="resume-tag">
                                         <span class="fa fa-university"></span>
                                         <div class="resume-date">
-                                            <span>2008</span>
+                                            <span>2005</span>
                                             <div class="separator"></div>
-                                            <span>2009</span>
+                                            <span>2011</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>
-                                        <h3 class="timeline-header">RESEARCH ASSISTANT</h3>
+                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>Notre Dame, IN USA</span>
+                                        <h3 class="timeline-header">TEACHING ASSISTANT</h3>
                                         <div class="timeline-body">
-                                            <h4>UNIVERSITY OF NANTES</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>UNIVERSITY OF NOTRE DAME DU LAC</h4>
+                                            <span>Assisted with several graduate and undergraduate course and laboratory classes</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="time-label">
-                                    <span class="content-title">HONORS AND AWARDS</span>
+                                    <span class="content-title">EDUCATION</span>
                                 </li>
                                 <li>
                                     <div class="resume-tag">
-                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-book-reader"></span>
                                         <div class="resume-date">
-                                            <span>2009</span>
-                                            <div class="separator"></div>
-                                            <span>2010</span>
+<!--                                            <span>2007</span>-->
+<!--                                            <div class="separator"></div>-->
+                                            <span>2012</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>
-                                        <h3 class="timeline-header">MELLON GRANT</h3>
+                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>Notre Dame, IN USA</span>
+                                        <h3 class="timeline-header">PHYSICS - PHD</h3>
                                         <div class="timeline-body">
-                                            <h4>COMPETITIVE AWARD FOR ACADEMIC EXCELLENCE</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>UNIVERSITY OF NOTRE DAME DU LAC</h4>
+                                            <span>Thesis: Charm Beyond the Standard Model</span>
+                                            <span>Adviser: Prof. Ikaros I. Bigi</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="resume-tag">
-                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-book-reader"></span>
                                         <div class="resume-date">
-                                            <span>2008</span>
-                                            <div class="separator"></div>
-                                            <span>2009</span>
+<!--                                            <span>2005</span>-->
+<!--                                            <div class="separator"></div>-->
+                                            <span>2007</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>
-                                        <h3 class="timeline-header">TRITON AWARD</h3>
+                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>Notre Dame, IN USA</span>
+                                        <h3 class="timeline-header">PHYSICS - MS</h3>
                                         <div class="timeline-body">
-                                            <h4>COMPETITIVE AWARD FOR ACADEMIC EXCELLENCE</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>UNIVERSITY OF NOTRE DAME DU LAC</h4>
+                                            <span>Department of Physics</span>
                                         </div>
                                     </div>
                                 </li>
+                                <li>
+                                    <div class="resume-tag">
+                                        <span class="fa fa-book-reader"></span>
+                                        <div class="resume-date">
+<!--                                            <span>2003</span>-->
+<!--                                            <div class="separator"></div>-->
+                                            <span>2005</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>Calcutta, India</span>
+                                        <h3 class="timeline-header">PHYSICS - M. Sc.</h3>
+                                        <div class="timeline-body">
+                                            <h4>S N BOSE NATIONAL CENTER FOR BASIC SCIENCES</h4>
+                                            <span>Department of Physics</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="resume-tag">
+                                        <span class="fa fa-book-reader"></span>
+                                        <div class="resume-date">
+<!--                                            <span>1999</span>-->
+<!--                                            <div class="separator"></div>-->
+                                            <span>2002</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>Calcutta, India</span>
+                                        <h3 class="timeline-header">PHYSICS - B. Sc.</h3>
+                                        <div class="timeline-body">
+                                            <h4>PRESIDENCY COLLEGE, UNIVERSITY OF CALCUTTA</h4>
+                                            <span>Physics, Mathematics and Statistics</span>
+                                        </div>
+                                    </div>
+                                </li>
+<!--                                <li class="time-label">-->
+<!--                                    <span class="content-title">HONORS AND AWARDS</span>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="resume-tag">-->
+<!--                                        <span class="fa fa-star-o"></span>-->
+<!--                                        <div class="resume-date">-->
+<!--                                            <span>2009</span>-->
+<!--                                            <div class="separator"></div>-->
+<!--                                            <span>2010</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="timeline-item">-->
+<!--                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>-->
+<!--                                        <h3 class="timeline-header">MELLON GRANT</h3>-->
+<!--                                        <div class="timeline-body">-->
+<!--                                            <h4>COMPETITIVE AWARD FOR ACADEMIC EXCELLENCE</h4>-->
+<!--                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="resume-tag">-->
+<!--                                        <span class="fa fa-star-o"></span>-->
+<!--                                        <div class="resume-date">-->
+<!--                                            <span>2008</span>-->
+<!--                                            <div class="separator"></div>-->
+<!--                                            <span>2009</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="timeline-item">-->
+<!--                                        <span class="timeline-location"><i class="fa fa-map-marker"></i>San fransico</span>-->
+<!--                                        <h3 class="timeline-header">TRITON AWARD</h3>-->
+<!--                                        <div class="timeline-body">-->
+<!--                                            <h4>COMPETITIVE AWARD FOR ACADEMIC EXCELLENCE</h4>-->
+<!--                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
                                 <!-- End Resume timeline -->
                             </ul>
                         </div>
@@ -457,7 +524,7 @@
                         <span class="before-title">.03</span>
                         <h2>PUBLICATIONS</h2>
                         <!-- Filter/Sort Menu -->
-                        <span class="content-title">PUBLICATIONS LIST</span>
+                        <span class="content-title">LIST OF SELECTED PUBLICATIONS</span>
                         <div class="row publication-form">
                             <div class="col-md-6 publication-filter">
                                 <div class="card-drop">
@@ -468,17 +535,17 @@
                                     <ul id="filter">
                                         <li class='active'><a data-label="ALL" data-group="all">ALL</a>
                                         </li>
+                                        <li><a data-label="FLAVOUR PHYSICS" data-group="FLAVOUR PHYSICS">FLAVOUR PHYSICS</a>
+                                        </li>
+                                        <li><a data-label="HIGGS PHYSICS" data-group="HIGGS PHYSICS">HIGGS PHYSICS</a>
+                                        </li>
                                         <li><a data-label="JOURNAL PAPERS" data-group="JOURNAL PAPERS">JOURNAL PAPERS</a>
                                         </li>
-                                        <li><a data-label="CONFERENCES" data-group="CONFERENCES">CONFERENCES</a>
-                                        </li>
-                                        <li><a data-label="DEMONSTRATIONS" data-group="DEMONSTRATIONS">DEMONSTRATIONS</a>
-                                        </li>
-                                        <li><a data-label="THESES" data-group="THESES">THESES</a>
-                                        </li>
-                                        <li><a data-label="BOOK CHAPTERS" data-group="BOOK CHAPTERS">BOOK CHAPTERS</a>
-                                        </li>
-                                        <li><a data-label="BOOK" data-group="BOOK">BOOK</a>
+<!--                                        <li><a data-label="CONFERENCES" data-group="CONFERENCES">CONFERENCES</a>-->
+<!--                                        </li>-->
+<!--                                        <li><a data-label="THESIS" data-group="THESIS">THESIS</a>-->
+<!--                                        </li>-->
+                                        <li><a data-label="REPORT" data-group="REPORT">REPORTS</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -500,472 +567,633 @@
                         <!-- publication wrapper -->
                         <div id="mygrid">
                             <!-- publication item -->
-                            <div class="publication_item" data-groups='["all","CONFERENCES"]' data-date-publication="2007-12-01">
+                            <div class="publication_item" data-groups='["all","HIGGS PHYSICS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail1" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">1</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">9</span>
+                                        <span class="month">July</span>
+                                        <span class="year">2019</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1742980" target="_blank"><h3>On the future of Higgs, electroweak and diboson measurements at lepton colliders</h3></a>
+                                        <h4>Submitted to JHEP for review</h4>
+<!--                                        <h2>On the future of Higgs, electroweak and diboson measurements at lepton colliders</h2>-->
+<!--                                        <h3>Submitted to JHEP for review</h3>-->
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-primary">Conferences</span>
-                                    <span class="label selected">Selected</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Higgs Physics</span>
+                                    <span class="publication_authors">J. De Blas, G. Durieux, C. Grojean, J. Gu and A. Paul</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail1 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+<!--                                    <div class="image_work">-->
+<!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+<!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-primary">Conferences</span>
-                                        <span class="label selected">Selected</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">On the future of Higgs, electroweak and diboson measurements at lepton colliders</h3>
+                                        <span class="publication_authors">J. De Blas, G. Durieux, C. Grojean, J. Gu and A. Paul</span>
+                                        <h4>Submitted to JHEP for review</h4>
+                                        <span class="label label-primary">Higgs Physics</span>
+                                        <p class="project_desc">LEP precision on electroweak measurements was sufficient not to hamper the extraction of Higgs couplings at the LHC. But the foreseen permille-level Higgs measurements at future lepton colliders might suffer from parametric electroweak uncertainties in the absence of a dedicated electroweak program. We perform a joint, complete and consistent effective-field-theory analysis of Higgs and electroweak processes. The full electroweak-sector dependence of the $e^+e^-\to WW$ production process is notably accounted for, using statistically optimal observables. Up-to-date HL-LHC projections are combined with CEPC, FCC-ee, ILC and CLIC ones. For circular colliders, our results demonstrate the importance of a new $Z$-pole program for the robust extraction of Higgs couplings. At linear colliders, we show how exploiting multiple polarizations and centre-of-mass energies is crucial to mitigate contaminations from electroweak parameter uncertainties on the Higgs physics program. We also investigate the potential of alternative electroweak measurements to compensate for the lack of direct $Z$-pole run, considering for instance radiative return to these energies. Conversely, we find that Higgs measurements at linear colliders could improve our knowledge of the $Z$ couplings to electrons.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1742980" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
                             <!-- End publication item -->
 
                             <!-- publication item -->
-                            <div class="publication_item" data-groups='["all","JOURNAL PAPERS"]' data-date-publication="2007-12-02">
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail2" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">2</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">22</span>
+                                        <span class="month">March</span>
+                                        <span class="year">2019</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1726374" target="_blank"><h3>New Physics in $b \to s \ell^+ \ell^-$ confronts new data on Lepton Universality</h3></a>
+                                        <h4>Eur. Phys. J. C79 (2019) no.8, 719</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
+                                    <span class="label label-primary">Flavour Physics</span>
                                     <span class="label label-success">Journal Paper</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="publication_authors">M. Ciuchini, A. M. Coutinho, M. Fedele, E. Franco, <br> A. Paul, L. Silvestrini  and M. Valli</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail2 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                        <h3 class="publication_title">New Physics in $b \to s \ell^+ \ell^-$ confronts new data on Lepton Universality</h3>
+                                        <span class="publication_authors">M. Ciuchini, A. M. Coutinho, M. Fedele, E. Franco, A. Paul, L. Silvestrini and M. Valli</span>
+                                        <h4>Eur. Phys. J. C79 (2019) no.8, 719</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
                                         <span class="label label-success">Journal Paper</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <p class="project_desc">In light of the very recent updates on the $R_K$ and $R_{K^*}$ measurements from the LHCb and Belle collaborations, we systematically explore here imprints of New Physics in $b \rightarrow s \ell ^+ \ell ^- $ transitions using the language of effective field theories. We focus on effects that violate Lepton Flavour Universality both in the Weak Effective Theory and in the Standard Model Effective Field Theory. In the Weak Effective Theory we find a preference for scenarios with the simultaneous presence of two operators, a left-handed quark current with vector muon coupling and a right-handed quark current with axial muon coupling, irrespective of the treatment of hadronic uncertainties. In the Standard Model Effective Field Theory we select different scenarios according to the treatment of hadronic effects: while an aggressive estimate of hadronic uncertainties points to the simultaneous presence of two operators, one with left-handed quark and muon couplings and one with left-handed quark and right-handed muon couplings, a more conservative treatment of hadronic matrix elements leaves room for a broader set of scenarios, including the one involving only the purely left-handed operator with muon coupling.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1726374" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","DEMONSTRATIONS"]' data-date-publication="2007-12-03">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail3" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">3</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">14</span>
+                                        <span class="month">February</span>
+                                        <span class="year">2019</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1720402" target="_blank"><h3>$SU(3)_F$ breaking through final state interactions and $CP$ asymmetries in $D \to PP$ decays</h3></a>
+                                        <h4>Phys. Rev. D99 (2019) no.11, 113001</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-warning">Demonstrations</span>
-                                    <span class="label selected">Selected</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">F. Buccella, A. Paul and P. Santorelli</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail3 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-warning">Demonstrations</span>
-                                        <span class="label selected">Selected</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">$SU(3)_F$ breaking through final state interactions and $CP$ asymmetries in $D \to PP$ decays</h3>
+                                        <span class="publication_authors">F. Buccella, A. Paul and P. Santorelli</span>
+                                        <h4>Phys. Rev. D99 (2019) no.11, 113001</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">We analyze D decays to two pseudoscalars (π,K) assuming the dominant source of SU(3)F breaking lies in final state interactions. We obtain an excellent agreement with experimental data and are able to predict CP violation in several channels based on current data on branching ratios and ΔACP. We also make predictions for δKπ and the branching fraction for the decay Ds+→K+KL. We analyse $D$ decays to two pseudoscalars $(\pi,K)$ assuming the dominant source of $\mathrm{SU}(3)_F$ breaking lies in final state interactions. We obtain an excellent agreement with experimental data and are able to predict CP violation in several channels based on current data on branching ratios and $\Delta \mathrm{A_{CP}}$. We also make predictions for $\delta_{K\pi}$ and the branching fraction for the decay $D_s^+\to K^+K_L$.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1720402" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","DEMONSTRATIONS"]' data-date-publication="2007-12-04">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","HIGGS PHYSICS","REPORT"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail4" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">4</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">5</span>
+                                        <span class="month">December</span>
+                                        <span class="year">2018</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1707017" target="_blank"><h3>The CLIC Potential for New Physics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                                        <h4>CERN Yellow Rep. Monogr. Vol. 3 (2018)</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-warning">Demonstrations</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Higgs Physics</span>
+                                    <span class="label label-success">Report</span>
+                                    <span class="publication_authors">J. de Blas et. al.</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail4 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-warning">Demonstrations</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">The CLIC Potential for New Physics</h3>
+                                        <span class="publication_authors">J. de Blas et. al.</span>
+                                        <h4>CERN Yellow Rep. Monogr. Vol. 3 (2018)</h4>
+                                        <span class="label label-primary">Higgs Physics</span>
+                                        <span class="label label-success">Report</span>
+                                        <p class="project_desc">The Compact Linear Collider (CLIC) is a mature option for the future of high energy physics. It combines the benefits of the clean environment of $e^+e^-$ colliders with operation at high centre-of-mass energies, allowing to probe scales beyond the reach of the Large Hadron Collider (LHC) for many scenarios of new physics. This places the CLIC project at a privileged spot in between the precision and energy frontiers, with capabilities that will significantly extend knowledge on both fronts at the end of the LHC era. In this report we review and revisit the potential of CLIC to search, directly and indirectly, for physics beyond the Standard Model.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1707017" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","THESES"]' data-date-publication="2007-12-05">
-                                <div class="media">
-                                    <a href=".publication-detail5" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
-                                    <div class="date pull-left">
-                                        <span class="day">5</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
-                                    <hr style="margin:8px auto">
-                                    <span class="label label-default">Theses</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                </div>
-                                <div class="mfp-hide mfp-with-anim publication-detail5 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
-                                    <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-default">Theses</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
-                                    </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
-                                    <div style="clear:both"></div>
-                                </div>
-                            </div>
-                            <!-- End Publication item -->
-
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","THESES"]' data-date-publication="2007-12-06">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","REPORT"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail6" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">6</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">30</span>
+                                        <span class="month">August</span>
+                                        <span class="year">2018</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1692393" target="_blank"><h3>The Belle II Physics Book &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                                        <h4>B2TiP Report</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-default">Theses</span>
-                                    <span class="label selected">Selected</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Report</span>
+                                    <span class="publication_authors">Belle II Collaboration</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail6 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-default">Theses</span>
-                                        <span class="label selected">Selected</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">The Belle II Physics Book</h3>
+                                        <span class="publication_authors">Belle II Collaboration</span>
+                                        <h4>B2TiP Report</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Report</span>
+                                        <p class="project_desc">We present the physics program of the Belle II experiment, located on the intensity frontier SuperKEKB $e^+e^-$ collider. Belle II collected its first collisions in 2018, and is expected to operate for the next decade. It is anticipated to collect 50 ab$^{-1}$ of collision data over its lifetime. This book is the outcome of a joint effort of Belle II collaborators and theorists through the Belle II theory interface platform (B2TiP), an effort that commenced in 2014. The aim of B2TiP was to elucidate the potential impacts of the Belle II program, which includes a wide scope of physics topics: $B$ physics, charm, tau, quarkonium, electroweak precision measurements and dark sector searches. It is composed of nine working groups (WGs), which are coordinated by teams of theorist and experimentalists conveners: Semileptonic and leptonic $B$ decays, Radiative and Electroweak penguins, $\phi_1$ and $\phi_2$ (time-dependent CP violation) measurements, $\phi_3$ measurements, Charmless hadronic $B$ decay, Charm, Quarkonium(like), tau and low-multiplicity processes, new physics and global fit analyses. This book highlights "golden- and silver-channels", i.e. those that would have the highest potential impact in the field. Theorists scrutinised the role of those measurements and estimated the respective theoretical uncertainties, achievable now as well as prospects for the future. Experimentalists investigated the expected improvements with the large dataset expected from Belle II, taking into account improved performance from the upgraded detector.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1692393" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","BOOK CHAPTERS"]' data-date-publication="2007-12-07">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","HIGGS PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail7" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">7</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">10</span>
+                                        <span class="month">October</span>
+                                        <span class="year">2017</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span>
-                                    </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1629956" target="_blank"><h3>Heavy Higgs Searches: Flavour Matters &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                                        <h4>JHEP 1801 (2018) 108</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-danger">Book Chapters</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Higgs Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">S. Gori, C. Grojean, A. Juste and A. Paul</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail7 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-danger">Book Chapters</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">Heavy Higgs Searches: Flavour Matters</h3>
+                                        <span class="publication_authors">S. Gori, C. Grojean, A. Juste and A. Paul</span>
+                                        <h4>JHEP 1801 (2018) 108</h4>
+                                        <span class="label label-primary">Higgs Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">We point out that the stringent lower bounds on the masses of additional electrically neutral and charged Higgs bosons crucially depend on the flavour structure of their Yukawa interactions. We show that these bounds can easily be evaded by the introduction of flavour-changing neutral currents in the Higgs sector. As an illustration, we study the phenomenology of a two Higgs doublet model with a Yukawa texture singling out the third family of quarks and leptons. We combine constraints from low-energy flavour physics measurements, LHC measurements of the 125 GeV Higgs boson rates, and LHC searches for new heavy Higgs bosons. We propose novel LHC searches that could be performed in the coming years to unravel the existence of these new Higgs bosons.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1629956" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","BOOK CHAPTERS"]' data-date-publication="2007-12-08">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail8" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">8</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">18</span>
+                                        <span class="month">April</span>
+                                        <span class="year">2017</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1591961" target="_blank"><h3>On Flavourful Easter eggs for New Physics hunger and Lepton Flavour Universality violation</h3></a>
+                                        <h4>Eur. Phys. J. C77 (2017) no.10, 688</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-danger">Book Chapters</span>
-                                    <span class="label selected">Selected</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">M. Ciuchini, A. M. Coutinho, M. Fedele, E. Franco, <br> A. Paul, L. Silvestrini and M. Valli</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail8 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-danger">Book Chapters</span>
-                                        <span class="label selected">Selected</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">On Flavourful Easter eggs for New Physics hunger and Lepton Flavour Universality violation</h3>
+                                        <span class="publication_authors">M. Ciuchini, A. M. Coutinho, M. Fedele, E. Franco, A. Paul, L. Silvestrini and M. Valli</span>
+                                        <h4>Eur. Phys. J. C77 (2017) no.10, 688</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">Within the standard approach of effective field theory of weak interactions for $\varDelta B = 1$ transitions, we look for possibly unexpected subtle New Physics effects, here dubbed “flavourful Easter eggs”. We perform a Bayesian global fit using the publicly available HEPfit package, taking into account state-of-the-art experimental information concerning these processes, including the suggestive measurements from LHCb of $R_{K}$ and $R_{K^{*}}$ , the latter available only very recently. We parametrise New Physics contributions to $b \rightarrow s$ transitions in terms of shifts of Wilson coefficients of the electromagnetic dipole and semileptonic operators, assuming CP-conserving effects, but allowing in general for violation of lepton flavour universality. We show how optimistic/conservative hadronic estimates can impact quantitatively the size of New Physics extracted from the fit. With a conservative approach to hadronic uncertainties we find nonzero New Physics contributions to Wilson coefficients at the level of $\sim 3\sigma $ , depending on the model chosen. Furthermore, given the interplay between hadronic contributions and New Physics effects in the leptonic vector current, a scenario with nonstandard leptonic axial currents is comparable to the more widely advocated one with New Physics in the leptonic vector current.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1591961" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","BOOK"]' data-date-publication="2007-12-09">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail9" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">9</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">8</span>
+                                        <span class="month">August</span>
+                                        <span class="year">2016</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1479949" target="_blank"><h3>Constraints on new physics from radiative $B$ decays</h3></a>
+                                        <h4>JHEP 1704 (2017) 027</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-info">Book</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">A. Paul and D. M. Straub</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail9 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-info">Book</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">Constraints on new physics from radiative $B$ decays</h3>
+                                        <span class="publication_authors">A. Paul and D. M. Straub</span>
+                                        <h4>JHEP 1704 (2017) 027</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">A new phase for the measurements of radiative decay modes in $b \to s$ transitions has started with new measurements of exclusive modes by LHCb and with Belle-II showing distinctive promises in both inclusive and exclusive channels. After critically reviewing the hadronic uncertainties in exclusive radiative decays, we analyze the impact of recent measurements of the branching ratio and mass-eigenstate rate asymmetry in $B_s\to\phi\gamma$ and of the angular distribution of $B\to K^*e^+e^-$ at low $q^2$ on new physics in the $b\to s\gamma$ transition.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1479949" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","JOURNAL PAPERS"]' data-date-publication="2007-12-10">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","HIGGS PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail10" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">10</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">2</span>
+                                        <span class="month">August</span>
+                                        <span class="year">2016</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1479160" target="_blank"><h3>Resolving gluon fusion loops at current and future hadron colliders</h3></a>
+                                        <h4>JHEP 1609 (2016) 123</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
+                                    <span class="label label-primary">Higgs Physics</span>
                                     <span class="label label-success">Journal Paper</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="publication_authors">A. Azatov, C. Grojean, A. Paul and E. Salvioni</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail10 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                        <h3 class="publication_title">Resolving gluon fusion loops at current and future hadron colliders</h3>
+                                        <span class="publication_authors">A. Azatov, C. Grojean, A. Paul and E. Salvioni</span>
+                                        <h4>JHEP 1609 (2016) 123</h4>
+                                        <span class="label label-primary">Higgs Physics</span>
                                         <span class="label label-success">Journal Paper</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <p class="project_desc">Inclusive Higgs measurements at the LHC have limited resolution on the gluon fusion loops, being unable to distinguish the long-distance contributions mediated by the top quark from possible short-distance new physics effects. Using an Effective Field Theory (EFT) approach we compare several proposed methods to lift this degeneracy, including $t\bar{t}h$ and boosted, off-shell and double Higgs production, and perform detailed projections to the High-Luminosity LHC and a future hadron collider. In addition, we revisit off-shell Higgs production. Firstly, we point out its sensitivity to modifications of the top-$Z$ couplings, and by means of a general analysis we show that the reach is comparable to that of tree-level processes such as $t\bar{t}Z$ production. Implications for composite Higgs models are also discussed. Secondly, we assess the regime of validity of the EFT, performing an explicit comparison for a simple extension of the Standard Model containing one vector-like quark.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1479160" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","BOOK"]' data-date-publication="2007-12-11">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail11" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">11</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">22</span>
+                                        <span class="month">December</span>
+                                        <span class="year">2015</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1411104" target="_blank"><h3>$B\to K^* \ell^+ \ell^-$ decays at large recoil in the Standard Model: a theoretical reappraisal</h3></a>
+                                        <h4>JHEP 1606 (2016) 116</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-info">Book</span>
-                                    <span class="label selected">Selected</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">M. Ciuchini, M. Fedele, E. Franco, S. Mishima, <br> A. Paul, L. Silvestrini and M. Valli</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail11 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-info">Book</span>
-                                        <span class="label selected">Selected</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">$B\to K^* \ell^+ \ell^-$ decays at large recoil in the Standard Model: a theoretical reappraisal</h3>
+                                        <span class="publication_authors">M. Ciuchini, M. Fedele, E. Franco, S. Mishima, A. Paul, L. Silvestrini and M. Valli</span>
+                                        <h4>JHEP 1606 (2016) 116</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">We critically reassess the theoretical uncertainties in the Standard Model calculation of the $B \to K^* \ell^+ \ell^-$ observables, focusing on the low $q^2$ region. We point out that even optimized observables are affected by sizable uncertainties, since hadronic contributions generated by current-current operators with charm are difficult to estimate, especially for $q^2 \sim 4 m_c^2\simeq 6.8$ GeV$^2$. We perform a detailed numerical analysis and present both predictions and results from the fit obtained using most recent data. We find that non-factorizable power corrections of the expected order of magnitude are sufficient to give a good description of current experimental data within the Standard Model. We discuss in detail the $q^2$ dependence of the corrections and their possible interpretation as shifts of the Standard Model Wilson coefficients.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1411104" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","THESES"]' data-date-publication="2007-12-12">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","HIGGS PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail12" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">12</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">24</span>
+                                        <span class="month">June</span>
+                                        <span class="year">2014</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1479160" target="_blank"><h3>Taming the off-shell Higgs boson &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+                                        <h4>J. Exp. Theor. Phys. 120 (2015) 354-368</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-default">Theses</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Higgs Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">A. Azatov, C. Grojean, A. Paul and E. Salvioni</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail12 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-default">Theses</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">Taming the off-shell Higgs boson</h3>
+                                        <span class="publication_authors">A. Azatov, C. Grojean, A. Paul and E. Salvioni</span>
+                                        <h4>J. Exp. Theor. Phys. 120 (2015) 354-368</h4>
+                                        <span class="label label-primary">Higgs Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">We study the off-shell Higgs data in the process $pp\to h^{(*)} \to Z^{(\ast)}Z^{(\ast)}\to 4\ell$, to constrain deviations of the Higgs couplings. We point out that this channel can be used to resolve the long- and short-distance contributions to Higgs production by gluon fusion and can thus be complementary to $pp\to ht\bar t$ in measuring the top Yukawa coupling. Our analysis, performed in the context of Effective Field Theory, shows that current data do not allow one to draw any model-independent conclusions. We study the prospects at future hadron colliders, including the high-luminosity LHC and accelerators with higher-energy, up to 100 TeV. The available QCD calculations and the theoretical uncertainties affecting our analysis are also briefly discussed.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1479160" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
 
-                            <!-- Publication item -->
-                            <div class="publication_item" data-groups='["all","CONFERENCES"]' data-date-publication="2007-12-13">
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","HIGGS PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
                                 <div class="media">
                                     <a href=".publication-detail13" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
                                     <div class="date pull-left">
-                                        <span class="day">13</span>
-                                        <span class="month">DEC</span>
-                                        <span class="year">2007</span>
+                                        <span class="day">20</span>
+                                        <span class="month">September</span>
+                                        <span class="year">2014</span>
                                     </div>
                                     <div class="media-body">
-                                        <h3>TITLE OF PUBLICATION</h3>
-                                        <h4>VANCOUVER - CANADA</h4>
-                                        <span class="publication_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque urna in ipsum iaculis aliquam. In vestibulum lacus a leo tincidunt commodo. Ut nec lorem scelerisque, aliquet nisi a, dignissim justo. Aenean ut libero eget est faucibus lobortis sed</span> </div>
+                                        <a class="ext_link" href="http://inspirehep.net/record/1254861" target="_blank"><h3>Probing Higgs couplings with high $p_T$ Higgs production</h3></a>
+                                        <h4>JHEP 1401 (2014) 014</h4>
+                                        <span class="publication_description"></span> </div>
                                     <hr style="margin:8px auto">
-                                    <span class="label label-primary">Conferences</span>
-                                    <span class="label selected">Selected</span>
-                                    <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">A. Azatov and A. Paul</span>
                                 </div>
                                 <div class="mfp-hide mfp-with-anim publication-detail13 publication-detail">
-                                    <div class="image_work">
-                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">
-                                    </div>
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
                                     <div class="project_content">
-                                        <h3 class="publication_title">Creating a Standardized Markup Language for Semantic Networks</h3>
-                                        <span class="publication_authors"><strong>Johnny smith</strong>, Dumas, C., Milleville-Pennel, I.</span>
-                                        <span class="label label-primary">Conferences</span>
-                                        <span class="label selected">Selected</span>
-                                        <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                            <br>
-                                            <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+                                        <h3 class="publication_title">Probing Higgs couplings with high $p_T$ Higgs production</h3>
+                                        <span class="publication_authors">A. Azatov and A. Paul</span>
+                                        <h4>JHEP 1401 (2014) 014</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">Possible extensions of the Standard Model predict modifications of the Higgs couplings to gluons and to the SM top quark. The values of these two couplings can, in general, be independent. We discuss a way to measure these interactions by studying the Higgs production at high $p_T$ within an effective field theory formalism. We also propose an observable $r_\pm$ with reduced theoretical errors and suggest its experimental interpretation.
+                                        </p>
                                     </div>
-                                    <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1254861" target="_blank"><i class="fa fa-external-link"></i></a>
                                     <div style="clear:both"></div>
                                 </div>
                             </div>
-                            <!-- End Publication item -->
+                            <!-- End publication item -->
+
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
+                                <div class="media">
+                                    <a href=".publication-detail14" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
+                                    <div class="date pull-left">
+                                        <span class="day">19</span>
+                                        <span class="month">December</span>
+                                        <span class="year">2012</span>
+                                    </div>
+                                    <div class="media-body">
+                                        <a class="ext_link" href="http://inspirehep.net/record/1208289" target="_blank"><h3>Manifestations of warped extra dimension in rare charm decays and asymmetries</h3></a>
+                                        <h4>Phys. Rev. D90 (2014) no.1, 014035</h4>
+                                        <span class="publication_description"></span> </div>
+                                    <hr style="margin:8px auto">
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">A. Paul, A. De La Puente and I. I. Bigi</span>
+                                </div>
+                                <div class="mfp-hide mfp-with-anim publication-detail14 publication-detail">
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
+                                    <div class="project_content">
+                                        <h3 class="publication_title">Manifestations of warped extra dimension in rare charm decays and asymmetries</h3>
+                                        <span class="publication_authors">A. Paul, A. De La Puente and I. I. Bigi</span>
+                                        <h4>Phys. Rev. D90 (2014) no.1, 014035</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">We study the effects of models with a warped extra dimension on rare charm decays. While the new degrees of freedom in these models are bounded above a few TeV, they can leave signatures in rare charm decays with their tiny Standard Model background. We look at several channels with leptons in the final state along with several asymmetries of both kinematical and dynamical nature. Charge-Parity-Time invariance is "usable" for analyzing the impacts of new dynamics in D meson decays and in particular, rare decays of charm mesons.
+                                        </p>
+                                    </div>
+                                    <a class="ext_link" href="http://inspirehep.net/record/1208289" target="_blank"><i class="fa fa-external-link"></i></a>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </div>
+                            <!-- End publication item -->
+
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
+                                <div class="media">
+                                    <a href=".publication-detail15" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
+                                    <div class="date pull-left">
+                                        <span class="day">13</span>
+                                        <span class="month">October</span>
+                                        <span class="year">2012</span>
+                                    </div>
+                                    <div class="media-body">
+                                        <a class="ext_link" href="http://inspirehep.net/record/939618" target="_blank"><h3>On CP Asymmetries in Two-, Three- and Four-Body $D$ Decays</h3></a>
+                                        <h4>JHEP 1203 (2012) 021</h4>
+                                        <span class="publication_description"></span> </div>
+                                    <hr style="margin:8px auto">
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">I. I. Bigi and A. Paul</span>
+                                </div>
+                                <div class="mfp-hide mfp-with-anim publication-detail15 publication-detail">
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
+                                    <div class="project_content">
+                                        <h3 class="publication_title">On CP Asymmetries in Two-, Three- and Four-Body $D$ Decays</h3>
+                                        <span class="publication_authors">I. I. Bigi and A. Paul</span>
+                                        <h4>JHEP 1203 (2012) 021</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">Indirect and direct CP violations have been established in $K_L$ and $B_d$ decays. They have been found in two-body decay channels -- with the exception of $K_L \to pi^+ pi^- e^+ e^-$ transitions. Evidence for direct CP asymmetry has just appeared in LHCb data on $A_{CP}(D^0 to K^+ K^-) - A_{CP}(D^0 to pi^+ pi^-)$ with 3.5 sigma significance. Manifestations of New Dynamics (ND) can appear in CP asymmetries just below experimental bounds. We discuss $D^{\pm}_{(s)}$, $D^0/\bar D^0$ and $D_L/D_S$ transitions to 2-, 3- and 4-body final states with a comment on predictions for inclusive vs. exclusive CP asymmetries. In particular we discuss T asymmetries in $D \to h_1 h_2 l^+ l^-$ in analogy with $K_L \to pi^+ pi^- e^+ e^-$ transitions due to interference between M1, internal bremsstrahlung and possible E1 amplitudes. Such an effect depends on the strength of CP violation originating from the ND -- as discussed here for Little Higgs Models with T parity and non-minimal Higgs sectors -- but also in the interferences between these amplitudes even in the Standard Model (SM). More general lessons can be learnt for T asymmetries in non-leptonic $D$ decays like $D \to h_1h_2 h_3 h_4$. Such manifestations of ND can be tested at LHCb and other Super-Flavour Factories like the projects at KEK near Tokyo and at Tor Vergata/Frascati near Rome.
+                                        </p>
+                                    </div>
+                                    <a class="ext_link" href="http://inspirehep.net/record/939618" target="_blank"><i class="fa fa-external-link"></i></a>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </div>
+                            <!-- End publication item -->
+
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
+                                <div class="media">
+                                    <a href=".publication-detail16" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
+                                    <div class="date pull-left">
+                                        <span class="day">29</span>
+                                        <span class="month">March</span>
+                                        <span class="year">2011</span>
+                                    </div>
+                                    <div class="media-body">
+                                        <a class="ext_link" href="http://inspirehep.net/record/894511" target="_blank"><h3>Conclusions from CDF Results on CP Violation in $D^0 \to \pi^+\pi^-$, $K^+K^-$ and Future Tasks</h3></a>
+                                        <h4>JHEP 1106 (2011) 089</h4>
+                                        <span class="publication_description"></span> </div>
+                                    <hr style="margin:8px auto">
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">I. I. Bigi, A. Paul and S, Recksiegel</span>
+                                </div>
+                                <div class="mfp-hide mfp-with-anim publication-detail16 publication-detail">
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
+                                    <div class="project_content">
+                                        <h3 class="publication_title">Conclusions from CDF Results on CP Violation in $D^0 \to \pi^+\pi^-$, $K^+K^-$ and Future Tasks</h3>
+                                        <span class="publication_authors">I. I. Bigi, A. Paul and S, Recksiegel</span>
+                                        <h4>JHEP 1106 (2011) 089</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">Within the Standard Model (SM) one predicts both direct and indirect CP violation in $D^0 \to \pi^+\pi^-$, $K^+K^-$ transitions, although the effects are tiny: Indirect CP asymmetry cannot exceed $O(10^{-4})$, probably even $O(10^{-5})$ direct effects are estimated at not larger than $10^{-4}$. At $B$ factories direct and indirect asymmetries have been studied with $\tau_{D^0} \sim 1$ no CP asymmetry was found with an upper bound of about 1%. CDF has shown intriguing data on CP violation in $D^0 \to \pi^+\pi^-$ $[K^+K^-]$ with $\tau_{D^0} \sim 2.4 [2.65]$. Also, CDF has not seen any CP violation. For direct CP asymmetry, CDF has a sensitivity similar to the combination of the $B$ factories, yet for indirect CP violation it yields a significantly smaller sensitivity of $a_{cp}^{ind}=(-0.01 \pm 0.06_{stat} \pm 0.05_{syst})\%$ due to it being based on longer decay times. New Physics models (NP) like Little Higgs Models with T-Parity (LHT) can produce an indirect CP asymmetry up to 1% CDF's findings thus cover the upper range of realistic NP predictions ~ 0.1 - 1%. One hopes that LHCb and a Super-Flavour Factory will probe the lower range down to ~ 0.01%. Such non-ad-hoc NP like LHT cannot enhance direct CP violation significantly over the SM level in $D^0 \to \pi^+\pi^-$, $K^+K^-$ and $D^{\pm} \to \pi^{\pm}K^+K^-$ transitions, but others might well do so.
+                                        </p>
+                                    </div>
+                                    <a class="ext_link" href="http://inspirehep.net/record/894511" target="_blank"><i class="fa fa-external-link"></i></a>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </div>
+                            <!-- End publication item -->
+
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
+                                <div class="media">
+                                    <a href=".publication-detail17" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
+                                    <div class="date pull-left">
+                                        <span class="day">31</span>
+                                        <span class="month">January</span>
+                                        <span class="year">2011</span>
+                                    </div>
+                                    <div class="media-body">
+                                        <a class="ext_link" href="http://inspirehep.net/record/886410" target="_blank"><h3>On $D\to X_u l^+ l^-$ within the Standard Model and Frameworks like the Littlest Higgs Model with T Parity</h3></a>
+                                        <h4>Phys. Rev. D83 (2011) 114006</h4>
+                                        <span class="publication_description"></span> </div>
+                                    <hr style="margin:8px auto">
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">I. I. Bigi, A. Paul and S, Recksiegel</span>
+                                </div>
+                                <div class="mfp-hide mfp-with-anim publication-detail17 publication-detail">
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
+                                    <div class="project_content">
+                                        <h3 class="publication_title">On $D\to X_u l^+ l^-$ within the Standard Model and Frameworks like the Littlest Higgs Model with T Parity</h3>
+                                        <span class="publication_authors">I. I. Bigi, A. Paul and S, Recksiegel</span>
+                                        <h4>Phys. Rev. D83 (2011) 114006</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">The $D\to X_u l^+ l^-$ transitions -- branching ratios, forward-backward asymmetry $A^c_{FB}$, the CP asymmetry $A^c_{CP}$ and the CP asymmetry in the forward-backward asymmetry $A^{CP}_{FB}$ -- have two sources: for $D^{\pm}$ they represent a pure $\Delta C=1$ &amp; $\Delta Q=0$ current interaction whereas neutral $D$ mesons can also communicate via their anti-hadron. Standard Model (SM) contributions to BR$(D\to X_u l^+ l^-)$ come primarily from long distance dynamics, which overshadow short distance contributions by several orders of magnitude; still they fall much below the present upper experimental bounds. Even the SM contributions to $A^c_{FB}$, $A^c_{CP}$ and $A^{CP}_{FB}$ are tiny, quite unlike in beauty hadrons. The branching ratios are hardly dented by contributions from the Littlest Higgs Models with T parity (LHT) even in the short distance regime, let alone in the SM long distances dynamics. Yet the asymmetries $A^c_{FB}$, $A^c_{CP}$ and $A^{CP}_{FB}$ in these New Physics models can be enhanced over SM predictions, as they arise purely from short distance dynamics; this can occur in particular for $A^c_{FB}$ and $A^{CP}_{FB}$ which get enhanced by orders of magnitudes. Even such enhancements hardly reach absolute sizes for observable experimental effects for $A^c_{FB}$ and $A^c_{CP}$. However LHT contributions to $A^{CP}_{FB}$ could be measured in experiments like the LHCb and the SuperB Collaboration. These results lead us to draw further conclusions on FCNCs within LHT-like models through some simple scaling arguments that encapsulate the essence of flavour dynamics in and beyond the Standard Model.
+                                        </p>
+                                    </div>
+                                    <a class="ext_link" href="http://inspirehep.net/record/886410" target="_blank"><i class="fa fa-external-link"></i></a>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </div>
+                            <!-- End publication item -->
+
+                            <!-- publication item -->
+                            <div class="publication_item" data-groups='["all","FLAVOUR PHYSICS","JOURNAL PAPERS"]' data-date-publication="2007-12-01">
+                                <div class="media">
+                                    <a href=".publication-detail18" class="ex-link open_popup" data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
+                                    <div class="date pull-left">
+                                        <span class="day">18</span>
+                                        <span class="month">August</span>
+                                        <span class="year">2010</span>
+                                    </div>
+                                    <div class="media-body">
+                                        <a class="ext_link" href="http://inspirehep.net/record/865567" target="_blank"><h3>$D^0 \to \gamma \gamma$ and $D^0 \to \mu^+ \mu^-$ Rates on an Unlikely Impact of the Littlest Higgs Model with T-Parity</h3></a>
+                                        <h4>Phys.Rev. D82 (2010) 094006</h4>
+                                        <span class="publication_description"></span> </div>
+                                    <hr style="margin:8px auto">
+                                    <span class="label label-primary">Flavour Physics</span>
+                                    <span class="label label-success">Journal Paper</span>
+                                    <span class="publication_authors">I. I. Bigi, A. Paul and S, Recksiegel</span>
+                                </div>
+                                <div class="mfp-hide mfp-with-anim publication-detail18 publication-detail">
+                                    <!--                                    <div class="image_work">-->
+                                    <!--                                        <img class="img-responsive" src="http://placehold.it/480x200" alt="img" width="480" height="200">-->
+                                    <!--                                    </div>-->
+                                    <div class="project_content">
+                                        <h3 class="publication_title">On $D\to X_u l^+ l^-$ within the Standard Model and Frameworks like the Littlest Higgs Model with T Parity</h3>
+                                        <span class="publication_authors">I. I. Bigi, A. Paul and S, Recksiegel</span>
+                                        <h4>Phys.Rev. D82 (2010) 094006</h4>
+                                        <span class="label label-primary">Flavour Physics</span>
+                                        <span class="label label-success">Journal Paper</span>
+                                        <p class="project_desc">The decays $D^0 \to \gamma \gamma$, $mu^+ mu^-$ are highly suppressed in the Standard Model (SM) with the lion's share of the rate coming from long distance dynamics $D^0 \to mu^+ mu^-$ is driven predominantly by $D^0 \to \gamma \gamma \to mu^+ mu^-$. Their present experimental bounds are small, yet much larger than SM predictions. New Physics models like the Littlest Higgs models with T parity (LHT) can induce even large indirect CP violation in $D^0$ transitions. One would guess that LHT has a 'fighting chance' to affect these $D^0 \to \gamma \gamma$, $mu^+ mu^-$ rates in an observable way. We have found LHT contributions can be much larger than short distance SM amplitude by orders of magnitude. Yet those can barely compete with the long distance SM effects. If $D^0 \to \gamma \gamma$, $mu^+ mu^-$ modes are observed at greatly enhanced rates, LHT scenarios will not be candidates for generating such signals. LHT-like frameworks will not yield larger $D^0 \rightarrow \gamma \gamma/mu^+ mu^-$ rates as they are constrained by $B$ and $K$ rare decays.
+                                        </p>
+                                    </div>
+                                    <a class="ext_link" href="http://inspirehep.net/record/865567" target="_blank"><i class="fa fa-external-link"></i></a>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </div>
+                            <!-- End publication item -->
                         </div>
                         <!-- End Publication Wrapper -->
                     </div>
@@ -1139,94 +1367,140 @@
                         <h2>TEACHING</h2>
                         <div class="teaching-wrapper">
                             <ul class="teaching">
+<!--                                <li class="time-label">-->
+<!--                                    <span class="content-title">CURRENT</span>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="teaching-tag">-->
+<!--                                        <span class="fa fa-atom"></span>-->
+<!--                                        <div class="teaching-date">-->
+<!--                                            <span>NOW</span>-->
+<!--                                            <div class="separator"></div>-->
+<!--                                            <span>2010</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="timeline-item">-->
+<!--                                        <h3 class="timeline-header">ASSISTANT PROFESSOR</h3>-->
+<!--                                        <div class="timeline-body">-->
+<!--                                            <h4>UNIVERSITY OF CALIFORNIA</h4>-->
+<!--                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="teaching-tag">-->
+<!--                                        <span class="fa fa-suitcase"></span>-->
+<!--                                        <div class="teaching-date">-->
+<!--                                            <span>NOW</span>-->
+<!--                                            <div class="separator"></div>-->
+<!--                                            <span>2008</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="timeline-item">-->
+<!--                                        <h3 class="timeline-header">TEACHING ASSISTANT</h3>-->
+<!--                                        <div class="timeline-body">-->
+<!--                                            <h4>UNIVERSITY OF CALIFORNIA</h4>-->
+<!--                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
                                 <li class="time-label">
-                                    <span class="content-title">CURRENT</span>
+                                    <span class="content-title">TEACHING EXPERIENCE</span>
                                 </li>
                                 <li>
                                     <div class="teaching-tag">
-                                        <span class="fa fa-suitcase"></span>
+                                        <span class="fa fa-atom"></span>
                                         <div class="teaching-date">
-                                            <span>NOW</span>
+                                            <span>2019</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">INSTRUCTOR</h3>
+                                        <div class="timeline-body">
+                                            <h4>Berlin QFT Master Class</h4>
+                                            <span>Hands-On Sessions on Electroweak Symmetry Breaking.</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="teaching-tag">
+                                        <span class="fa fa-atom"></span>
+                                        <div class="teaching-date">
+                                            <span>2014</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">INSTRUCTOR</h3>
+                                        <div class="timeline-body">
+                                            <h4>Lectures on CP Violation</h4>
+                                            <span>Topical lectures at the University of Notre Dame du Lac.</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="teaching-tag">
+                                        <span class="fa fa-atom"></span>
+                                        <div class="teaching-date">
+                                            <span>2006</span>
                                             <div class="separator"></div>
                                             <span>2010</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <h3 class="timeline-header">ASSISTANT PROFESSOR</h3>
+                                        <h3 class="timeline-header">TUTOR</h3>
                                         <div class="timeline-body">
-                                            <h4>UNIVERSITY OF CALIFORNIA</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>ACADEMIC SERVICES FOR STUDENT ATHLETES</h4>
+                                            <span>Taught Physics and Mathematics to the atletes in the University of Notre Dame du Lac.</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="teaching-tag">
-                                        <span class="fa fa-suitcase"></span>
+                                        <span class="fa fa-laptop-code"></span>
                                         <div class="teaching-date">
-                                            <span>NOW</span>
+                                            <span>2006</span>
                                             <div class="separator"></div>
-                                            <span>2008</span>
+                                            <span>20011</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <h3 class="timeline-header">TEACHING ASSISTANT</h3>
+                                        <h3 class="timeline-header">INSTRUCTOR</h3>
                                         <div class="timeline-body">
-                                            <h4>UNIVERSITY OF CALIFORNIA</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>FORTRAN FOR REU STUDENTS</h4>
+                                            <span>Designed and taught classes on FORTRAN at the University of Notre Dame du Lac.</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="time-label">
-                                    <span class="content-title">TEACHING HISTORY</span>
+                                    <span class="content-title">THESES SUPERVISION</span>
                                 </li>
                                 <li>
                                     <div class="teaching-tag">
-                                        <span class="fa fa-suitcase"></span>
+                                        <span class="fa fa-graduation-cap"></span>
                                         <div class="teaching-date">
-                                            <span>2009</span>
-                                            <div class="separator"></div>
-                                            <span>2010</span>
+                                            <span>2015</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <h3 class="timeline-header">ADJUNCT PROFESSOR</h3>
+                                        <h3 class="timeline-header">CLAUDIO FABIANI</h3>
                                         <div class="timeline-body">
-                                            <h4>OXFORD UNIVERSITY COMPUTING LABORATORY</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="teaching-tag">
-                                        <span class="fa fa-suitcase"></span>
-                                        <div class="teaching-date">
-                                            <span>2009</span>
-                                            <div class="separator"></div>
-                                            <span>2010</span>
-                                        </div>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <h3 class="timeline-header">TEACHING ASSISTANT</h3>
-                                        <div class="timeline-body">
-                                            <h4>OXFORD UNIVERSITY COMPUTING LABORATORY</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>MS Thesis</h4>
+                                            <span>The decays of $B_{d,s}$ in the Standard Model.</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="teaching-tag">
-                                        <span class="fa fa-suitcase"></span>
+                                        <span class="fa fa-graduation-cap"></span>
                                         <div class="teaching-date">
-                                            <span>2008</span>
-                                            <div class="separator"></div>
-                                            <span>2009</span>
+                                            <span>2014</span>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <h3 class="timeline-header">TEACHING ASSISTANT</h3>
+                                        <h3 class="timeline-header">MARCO FEDELE</h3>
                                         <div class="timeline-body">
-                                            <h4>UNIVERSITY OF NANTES</h4>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem.</span>
+                                            <h4>MS Thesis</h4>
+                                            <span>Study of $B\to K^{*}\ell^+\ell^-$ decays in the Standard Model and Beyond.</span>
                                         </div>
                                     </div>
                                 </li>
@@ -1308,210 +1582,210 @@
                 </article>
                 <!-- End Skills Section -->
 
-                <!-- Works Section -->
-                <article class="hs-content works-section" id="section7">
-                    <span class="sec-icon fa fa-archive"></span>
-                    <div class="hs-inner">
-                        <span class="before-title">.07</span>
-                        <h2>WORKS</h2>
-                        <div class="portfolio">
-                            <!-- Portfolio Item -->
-                            <figure class="effect-milo">
-                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />
-                                <figcaption>
-                                    <span class="label">Logo Design</span>
-                                    <div class="portfolio_button">
-                                        <h3>Project Title</h3>
-                                        <a href=".work1" class="open_popup" data-effect="mfp-zoom-out">
-                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
-                                        </a>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim work_desc work1">
-                                        <div class="col-md-6">
-                                            <div class="image_work">
-                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="project_content">
-                                                <h2 class="project_title">Project title</h2>
-                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                                    <br>
-                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
-                                            </div>
-                                        </div>
-                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
-                                        <div style="clear:both"></div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <!-- End Portfolio Item -->
+<!--                &lt;!&ndash; Works Section &ndash;&gt;-->
+<!--                <article class="hs-content works-section" id="section7">-->
+<!--                    <span class="sec-icon fa fa-archive"></span>-->
+<!--                    <div class="hs-inner">-->
+<!--                        <span class="before-title">.07</span>-->
+<!--                        <h2>WORKS</h2>-->
+<!--                        <div class="portfolio">-->
+<!--                            &lt;!&ndash; Portfolio Item &ndash;&gt;-->
+<!--                            <figure class="effect-milo">-->
+<!--                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />-->
+<!--                                <figcaption>-->
+<!--                                    <span class="label">Logo Design</span>-->
+<!--                                    <div class="portfolio_button">-->
+<!--                                        <h3>Project Title</h3>-->
+<!--                                        <a href=".work1" class="open_popup" data-effect="mfp-zoom-out">-->
+<!--                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    <div class="mfp-hide mfp-with-anim work_desc work1">-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="image_work">-->
+<!--                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="project_content">-->
+<!--                                                <h2 class="project_title">Project title</h2>-->
+<!--                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.-->
+<!--                                                    <br>-->
+<!--                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>-->
+<!--                                        <div style="clear:both"></div>-->
+<!--                                    </div>-->
+<!--                                </figcaption>-->
+<!--                            </figure>-->
+<!--                            &lt;!&ndash; End Portfolio Item &ndash;&gt;-->
 
-                            <!-- Portfolio Item -->
-                            <figure class="effect-milo">
-                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />
-                                <figcaption>
-                                    <span class="label">web design</span>
-                                    <div class="portfolio_button">
-                                        <h3>Project Title</h3>
-                                        <a href=".work2" class="open_popup" data-effect="mfp-zoom-out">
-                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
-                                        </a>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim work_desc work2">
-                                        <div class="col-md-6">
-                                            <div class="image_work">
-                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="project_content">
-                                                <h2 class="project_title">Project title</h2>
-                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                                    <br>
-                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
-                                            </div>
-                                        </div>
-                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
-                                        <div style="clear:both"></div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <!-- End Portfolio Item -->
+<!--                            &lt;!&ndash; Portfolio Item &ndash;&gt;-->
+<!--                            <figure class="effect-milo">-->
+<!--                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />-->
+<!--                                <figcaption>-->
+<!--                                    <span class="label">web design</span>-->
+<!--                                    <div class="portfolio_button">-->
+<!--                                        <h3>Project Title</h3>-->
+<!--                                        <a href=".work2" class="open_popup" data-effect="mfp-zoom-out">-->
+<!--                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    <div class="mfp-hide mfp-with-anim work_desc work2">-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="image_work">-->
+<!--                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="project_content">-->
+<!--                                                <h2 class="project_title">Project title</h2>-->
+<!--                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.-->
+<!--                                                    <br>-->
+<!--                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>-->
+<!--                                        <div style="clear:both"></div>-->
+<!--                                    </div>-->
+<!--                                </figcaption>-->
+<!--                            </figure>-->
+<!--                            &lt;!&ndash; End Portfolio Item &ndash;&gt;-->
 
-                            <!-- Portfolio Item -->
-                            <figure class="effect-milo">
-                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />
-                                <figcaption>
-                                    <span class="label">Mobile app</span>
-                                    <div class="portfolio_button">
-                                        <h3>Project Title</h3>
-                                        <a href=".work3" class="open_popup" data-effect="mfp-zoom-out">
-                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
-                                        </a>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim work_desc work3">
-                                        <div class="col-md-6">
-                                            <div class="image_work">
-                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="project_content">
-                                                <h2 class="project_title">Project title</h2>
-                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                                    <br>
-                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
+<!--                            &lt;!&ndash; Portfolio Item &ndash;&gt;-->
+<!--                            <figure class="effect-milo">-->
+<!--                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />-->
+<!--                                <figcaption>-->
+<!--                                    <span class="label">Mobile app</span>-->
+<!--                                    <div class="portfolio_button">-->
+<!--                                        <h3>Project Title</h3>-->
+<!--                                        <a href=".work3" class="open_popup" data-effect="mfp-zoom-out">-->
+<!--                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    <div class="mfp-hide mfp-with-anim work_desc work3">-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="image_work">-->
+<!--                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="project_content">-->
+<!--                                                <h2 class="project_title">Project title</h2>-->
+<!--                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.-->
+<!--                                                    <br>-->
+<!--                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>-->
 
-                                            </div>
-                                        </div>
-                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
-                                        <div style="clear:both"></div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <!-- End Portfolio Item -->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>-->
+<!--                                        <div style="clear:both"></div>-->
+<!--                                    </div>-->
+<!--                                </figcaption>-->
+<!--                            </figure>-->
+<!--                            &lt;!&ndash; End Portfolio Item &ndash;&gt;-->
 
-                            <!-- Portfolio Item -->
-                            <figure class="effect-milo">
-                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />
-                                <figcaption>
-                                    <span class="label">web design</span>
-                                    <div class="portfolio_button">
-                                        <h3>Project Title</h3>
-                                        <a href=".work4" class="open_popup" data-effect="mfp-zoom-out">
-                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
-                                        </a>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim work_desc work4">
-                                        <div class="col-md-6">
-                                            <div class="image_work">
-                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="project_content">
-                                                <h2 class="project_title">Project title</h2>
-                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                                    <br>
-                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
-                                            </div>
-                                        </div>
-                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
-                                        <div style="clear:both"></div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <!-- End Portfolio Item -->
+<!--                            &lt;!&ndash; Portfolio Item &ndash;&gt;-->
+<!--                            <figure class="effect-milo">-->
+<!--                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />-->
+<!--                                <figcaption>-->
+<!--                                    <span class="label">web design</span>-->
+<!--                                    <div class="portfolio_button">-->
+<!--                                        <h3>Project Title</h3>-->
+<!--                                        <a href=".work4" class="open_popup" data-effect="mfp-zoom-out">-->
+<!--                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    <div class="mfp-hide mfp-with-anim work_desc work4">-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="image_work">-->
+<!--                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="project_content">-->
+<!--                                                <h2 class="project_title">Project title</h2>-->
+<!--                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.-->
+<!--                                                    <br>-->
+<!--                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>-->
+<!--                                        <div style="clear:both"></div>-->
+<!--                                    </div>-->
+<!--                                </figcaption>-->
+<!--                            </figure>-->
+<!--                            &lt;!&ndash; End Portfolio Item &ndash;&gt;-->
 
-                            <!-- Portfolio Item -->
-                            <figure class="effect-milo">
-                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />
-                                <figcaption>
-                                    <span class="label">Mobile app</span>
-                                    <div class="portfolio_button">
-                                        <h3>Project Title</h3>
-                                        <a href=".work5" class="open_popup" data-effect="mfp-zoom-out">
-                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
-                                        </a>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim work_desc work5">
-                                        <div class="col-md-6">
-                                            <div class="image_work">
-                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="project_content">
-                                                <h2 class="project_title">Project title</h2>
-                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                                    <br>
-                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
-                                            </div>
-                                        </div>
-                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
-                                        <div style="clear:both"></div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <!-- End Portfolio Item -->
+<!--                            &lt;!&ndash; Portfolio Item &ndash;&gt;-->
+<!--                            <figure class="effect-milo">-->
+<!--                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />-->
+<!--                                <figcaption>-->
+<!--                                    <span class="label">Mobile app</span>-->
+<!--                                    <div class="portfolio_button">-->
+<!--                                        <h3>Project Title</h3>-->
+<!--                                        <a href=".work5" class="open_popup" data-effect="mfp-zoom-out">-->
+<!--                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    <div class="mfp-hide mfp-with-anim work_desc work5">-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="image_work">-->
+<!--                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="project_content">-->
+<!--                                                <h2 class="project_title">Project title</h2>-->
+<!--                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.-->
+<!--                                                    <br>-->
+<!--                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>-->
+<!--                                        <div style="clear:both"></div>-->
+<!--                                    </div>-->
+<!--                                </figcaption>-->
+<!--                            </figure>-->
+<!--                            &lt;!&ndash; End Portfolio Item &ndash;&gt;-->
 
-                            <!-- Portfolio Item -->
-                            <figure class="effect-milo">
-                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />
-                                <figcaption>
-                                    <span class="label">Logo Design</span>
-                                    <div class="portfolio_button">
-                                        <h3>Project Title</h3>
-                                        <a href=".work6" class="open_popup" data-effect="mfp-zoom-out">
-                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
-                                        </a>
-                                    </div>
-                                    <div class="mfp-hide mfp-with-anim work_desc work6">
-                                        <div class="col-md-6">
-                                            <div class="image_work">
-                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="project_content">
-                                                <h2 class="project_title">Project title</h2>
-                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.
-                                                    <br>
-                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>
-                                            </div>
-                                        </div>
-                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>
-                                        <div style="clear:both"></div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <!-- End Portfolio Item -->
-                        </div>
-                        <!-- End Portfolio Wrapper -->
-                    </div>
-                </article>
-                <!-- End Works Section -->
+<!--                            &lt;!&ndash; Portfolio Item &ndash;&gt;-->
+<!--                            <figure class="effect-milo">-->
+<!--                                <img src="http://placehold.it/280x222" alt="img11" width="282" height="222" />-->
+<!--                                <figcaption>-->
+<!--                                    <span class="label">Logo Design</span>-->
+<!--                                    <div class="portfolio_button">-->
+<!--                                        <h3>Project Title</h3>-->
+<!--                                        <a href=".work6" class="open_popup" data-effect="mfp-zoom-out">-->
+<!--                                            <i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    <div class="mfp-hide mfp-with-anim work_desc work6">-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="image_work">-->
+<!--                                                <img src="http://placehold.it/560x420" alt="img" width="560" height="420">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-6">-->
+<!--                                            <div class="project_content">-->
+<!--                                                <h2 class="project_title">Project title</h2>-->
+<!--                                                <p class="project_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a auctor sem. Suspendisse egestas nulla eget nunc commodo, et blandit ante tristique. Aliquam dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.-->
+<!--                                                    <br>-->
+<!--                                                    <br>dignissim nulla tellus, sed pellentesque libero pellentesque et. Donec nec sem mattis, suscipit ligula id, porttitor tortor. Maecenas sed egestas odio, vitae euismod nulla. Duis viverra blandit mi quis rhoncus. Aenean vitae turpis et tortor elementum blandit.</p>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <a class="ext_link" href="#"><i class="fa fa-external-link"></i></a>-->
+<!--                                        <div style="clear:both"></div>-->
+<!--                                    </div>-->
+<!--                                </figcaption>-->
+<!--                            </figure>-->
+<!--                            &lt;!&ndash; End Portfolio Item &ndash;&gt;-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; End Portfolio Wrapper &ndash;&gt;-->
+<!--                    </div>-->
+<!--                </article>-->
+<!--                &lt;!&ndash; End Works Section &ndash;&gt;-->
 
                 <!-- Contact Section -->
                 <article class="hs-content contact-section" id="section8">
@@ -1522,8 +1796,8 @@
                         <div class="contact_info">
                             <h3>Get in touch</h3>
                             <hr>
-                            <h5>We are waiting to assist you</h5>
-                            <h6>Simply use the form below to get in touch</h6>
+<!--                            <h5>We are waiting to assist you</h5>-->
+                            <h6>Use the form below to get in touch</h6>
 
                             <hr>
                         </div>
@@ -1553,10 +1827,12 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/default.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwbjb7mY11JtcTka1m7iWKCQdtYHf48OA&callback=initMap"
+            async defer></script>
     <script type="text/javascript" src="js/watch.js"></script>
     <script type="text/javascript" src="js/layout.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
     <!-- END PLUGIN SCRIPTS -->
 </body>
