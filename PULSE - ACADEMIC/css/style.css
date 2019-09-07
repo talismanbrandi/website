@@ -1028,7 +1028,7 @@ ul.marquee li {
 .about-section .tab-pane h3 {
     margin: 0;
     padding: 5px 0;
-    font-size: 0.9em;
+    font-size: 1.0em;
     color: #606777;
     font-family: Montserrat;
 }
@@ -1036,7 +1036,7 @@ ul.marquee li {
 .about-section .tab-pane h4 {
     margin-top: 0;
     margin-bottom: 9px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .about-section .tab-pane .hobbie-icon {
@@ -1117,7 +1117,7 @@ ul.marquee li {
 .resume-section .resume > li > .timeline-item > .timeline-header {
     margin: 0;
     padding: 5px 0;
-    font-size: 0.9em;
+    font-size: 1em;
     color: #606777;
     font-family: Montserrat;
 }
@@ -1186,7 +1186,7 @@ ul.marquee li {
 .resume-section .resume h4 {
     margin-top: 0;
     margin-bottom: 9px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .resume-section .resume-wrapper {
@@ -1922,7 +1922,7 @@ ul.marquee li {
 .teaching-section .teaching > li > .timeline-item > .timeline-body span {
     font-size: 13px;
     line-height: 24px;
-    text-align: justify;
+    /*text-align: justify;*/
     position: relative;
     color: #606777;
     display: inline-block;

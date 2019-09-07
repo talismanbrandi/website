@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="some updates">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/academicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/academicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/academicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/academicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/academicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/academicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tree.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="1410" column="62" lean-forward="true" selection-start-line="1410" selection-start-column="62" selection-end-line="1410" selection-end-column="62" />
+            <state relative-caret-position="548">
+              <caret line="226" column="192" selection-start-line="226" selection-start-column="192" selection-end-line="226" selection-end-column="192" />
               <folding>
                 <element signature="e#2710#2716#0" expanded="true" />
                 <element signature="e#2716#2722#0" expanded="true" />
@@ -150,10 +135,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="3" column="20920" selection-start-line="3" selection-start-column="20920" selection-end-line="3" selection-end-column="20920" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="1977" column="17" selection-start-line="1977" selection-start-column="17" selection-end-line="1977" selection-end-column="17" />
+            <state relative-caret-position="4150">
+              <caret line="1183" column="1" selection-start-line="1183" selection-start-column="1" selection-end-line="1183" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/php/contact.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="870">
-              <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+              <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -189,7 +183,7 @@
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="268" column="30" lean-forward="true" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
+              <caret line="268" column="30" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -214,7 +208,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>apaul</find>
       <find>cd-google-map</find>
       <find>googlea</find>
       <find>downla</find>
@@ -243,6 +236,7 @@
       <find>media-</find>
       <find>submit_btn</find>
       <find>Confe</find>
+      <find>atom</find>
       <find>date</find>
     </findStrings>
     <replaceStrings>
@@ -282,6 +276,11 @@
             <path>
               <item name="PULSE - ACADEMIC" type="b2602c69:ProjectViewProjectNode" />
               <item name="PULSE - ACADEMIC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PULSE - ACADEMIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PULSE - ACADEMIC" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PULSE - ACADEMIC" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +329,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567769788433</updated>
-      <workItem from="1567769789673" duration="27219000" />
+      <workItem from="1567769789673" duration="32011000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -343,18 +342,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27219000" />
+    <option name="totallyTimeSpent" value="32011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="948" y="-1080" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1086262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1086262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -385,9 +385,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/colors/green.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/academicons.min.css">
@@ -440,7 +437,7 @@
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="268" column="30" lean-forward="true" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
+          <caret line="268" column="30" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -464,7 +461,7 @@
     <entry file="file://$PROJECT_DIR$/php/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -478,17 +475,27 @@
     <entry file="file://$PROJECT_DIR$/images/cover.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="3" column="20920" selection-start-line="3" selection-start-column="20920" selection-end-line="3" selection-end-column="20920" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fontawesome.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="1977" column="17" selection-start-line="1977" selection-start-column="17" selection-end-line="1977" selection-end-column="17" />
+        <state relative-caret-position="4150">
+          <caret line="1183" column="1" selection-start-line="1183" selection-start-column="1" selection-end-line="1183" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="1410" column="62" lean-forward="true" selection-start-line="1410" selection-start-column="62" selection-end-line="1410" selection-end-column="62" />
+        <state relative-caret-position="548">
+          <caret line="226" column="192" selection-start-line="226" selection-start-column="192" selection-end-line="226" selection-end-column="192" />
           <folding>
             <element signature="e#2710#2716#0" expanded="true" />
             <element signature="e#2716#2722#0" expanded="true" />
