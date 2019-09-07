@@ -581,6 +581,11 @@ ul.marquee li {
     width: 40px;
 }
 
+.about-section .aboutInfo-contanier .map-location i {
+    opacity: .60;
+    font-size: 40px;
+}
+
 .my-location {
     position: relative;
     width: 90%;
