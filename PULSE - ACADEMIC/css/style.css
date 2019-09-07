@@ -1045,10 +1045,35 @@ ul.marquee li {
     padding-top: 10px;
 }
 
+.about-section .tab-pane .hobbie-icon a {
+    background: url(../images/frame.png) no-repeat center top;
+    background-size: 150px;
+    /*height: 128px;*/
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 5px 29px;
+}
+.about-section .tab-pane .hobbie-icon a:hover {
+    opacity: 0.9;
+}
+
+.about-section .tab-pane .hobbie-icon img {
+    /*background: url(../images/frame.png) no-repeat center top;*/
+    /*background-size: 140px 113px;*/
+    border: 0px;
+    height: 113px;
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .about-section .tab-pane .hobbie-description {}
 
 .about-section .tab-pane .hobbie-wrapper p {
-    margin-top: 6px;
+    /*margin-top: 6px;*/
+    text-align: left;
 }
 
 .about-section .tab-pane .facts-wrapper {

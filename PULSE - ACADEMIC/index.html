@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/academicons.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<!--    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />-->
     <link rel="stylesheet" type="text/css" href="css/linecons.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/colors/light-green.css" />
@@ -101,8 +101,8 @@
 <!--                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>-->
                 <a href="http://inspirehep.net/author/profile/Ayan.Paul.1" target="_blank"><i class="ai ai-inspire"></i></a>
                 <a href="https://scholar.google.it/citations?user=CWtp0rQAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i></a>
-                <a href="https://github.com/talismanbrandi" target="_blank"><i class="fa fa-atom"></i></a>
-                <a href="https://www.linkedin.com/in/ayan--paul" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/talismanbrandi" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayan--paul" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
             <!-- end social icons -->
         </aside>
@@ -206,11 +206,11 @@
                             <div class="more-details">
                                 <div class="tabbable tabs-vertical tabs-left">
                                     <ul id="myTab" class="nav nav-tabs">
-                                        <li class="active">
-                                            <a href="#bio" data-toggle="tab">PHYSICS</a>
-                                        </li>
                                         <li>
-                                            <a href="#hobbies" data-toggle="tab">Hobbies</a>
+                                            <a href="#physics" data-toggle="tab">PHYSICS</a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#HEPfit" data-toggle="tab">HEPfit</a>
                                         </li>
                                         <li>
                                             <a href="#facts" data-toggle="tab">Facts</a>
@@ -218,7 +218,7 @@
                                     </ul>
                                     <div id="myTabContent" class="tab-content">
 
-                                        <div class="tab-pane fade in active" id="bio">
+                                        <div class="tab-pane fade" id="physics">
                                             <h3>PHYSICS</h3>
                                             <h4>THEORETICAL PARTICLE PHYSICS</h4>
                                             <p>The trade of High Energy Physics phenomenology has arrived to a stage where the broader landscape of the field has become a necessary scope of exploration. With signatures of new dynamics continuing to be somewhat elusive, it has become important to study not only dynamics of different possible extensions of the Standard Theory, but also interconnect the different "puzzles" that have arisen from the theoretical and experimental fronts in areas that are typically separated as distinct sub-disciplines within High Energy Physics phenomenology itself.</p>
@@ -226,44 +226,53 @@
                                             <p><strong>Charm dynamics:</strong> CP violation, hadronic decays, final state interactions, leptonic and semileptonic decays.</p>
                                             <p><strong>Beauty dynamics:</strong> Semileptonic and leptonic decays, decay distributions, tests of lepton flavour universality and BSM</p>
                                             <p><strong>Higgs and EW Physics:</strong> Effective Field Theories, Higgs productions and decays, BSM and future colliders</p>
-                                            <p><strong>Physics Computation:</strong> Active developer for the statistical core (MCMC based Bayesian Analysis) and flavour physics in HEPfit</p>
+                                            <p><strong>Physics Computation:</strong> Active developer for the statistical core (MCMC based Bayesian Analysis) and flavour physics in $\texttt{HEPfit}$</p>
                                         </div>
-                                        <div class="tab-pane fade" id="hobbies">
-                                            <h3>HOBBIES</h3>
-                                            <h4>INTERESTS</h4>
+                                        <div class="tab-pane fade in active" id="HEPfit">
+                                            <h3>$\texttt{HEPfit}$</h3>
+                                            <h4>a Code for the Combination of Indirect and Direct Constraints on High Energy Physics Models.</h4>
                                             <div class="hobbie-wrapper row">
-                                                <div class="hobbie-icon col-md-3"><i class="li_lab"></i>
+                                                <div class="hobbie-icon col-md-5"><a><img src="images/HiggsPhysics-front.png"></a>
                                                 </div>
-                                                <div class="hobbie-description col-md-9">
+                                                <div class="hobbie-description col-md-7">
 
-                                                    <p>Duis eu finibus urna. Pellentesque facilisis tellus vel leo accumsan, a tristique est luctus. Morbi quis euismod nulla. Sed eu nibh eros.</p>
+                                                    <p><strong>Higgs Physics</strong> <br>$\texttt{HEPfit}$ can be used to study Higgs couplings and analyze data on signal strengths.</p>
                                                 </div>
                                                 <div style="clear:both;"></div>
                                             </div>
-                                            <div class="hobbie-wrapper row">
-                                                <div class="hobbie-icon col-md-3"><i class="li_pen"></i>
-                                                </div>
-                                                <div class="hobbie-description col-md-9">
 
-                                                    <p>Duis eu finibus urna. Pellentesque facilisis tellus vel leo accumsan, a tristique est luctus. Morbi quis euismod nulla. Sed eu nibh eros.</p>
-                                                </div>
-                                            </div>
                                             <div class="hobbie-wrapper row">
-                                                <div class="hobbie-icon col-md-3"><i class="li_tv"></i>
+                                                <div class="hobbie-icon col-md-5"><a><img src="images/radar-front.png"></a>
                                                 </div>
-                                                <div class="hobbie-description col-md-9">
+                                                <div class="hobbie-description col-md-7">
 
-                                                    <p>Duis eu finibus urna. Pellentesque facilisis tellus vel leo accumsan, a tristique est luctus. Morbi quis euismod nulla. Sed eu nibh eros.</p>
+                                                    <p><strong>Precision Electroweak</strong> <br>Electroweak precision observables are included in  $\texttt{HEPfit}$.</p>
                                                 </div>
+                                                <div style="clear:both;"></div>
                                             </div>
+
                                             <div class="hobbie-wrapper row">
-                                                <div class="hobbie-icon col-md-3"><i class="li_shop"></i>
+                                                <div class="hobbie-icon col-md-5"><a><img src="images/FlavourPhysics-front.png"></a>
                                                 </div>
-                                                <div class="hobbie-description col-md-9">
+                                                <div class="hobbie-description col-md-7">
 
-                                                    <p>Duis eu finibus urna. Pellentesque facilisis tellus vel leo accumsan, a tristique est luctus. Morbi quis euismod nulla. Sed eu nibh eros.</p>
+                                                    <p><strong>Flavour Physics</strong> <br>The Flavour Physics menu in $\texttt{HEPfit}$ includes both quark and lepton flavour dynamics.</p>
                                                 </div>
+                                                <div style="clear:both;"></div>
                                             </div>
+
+                                            <div class="hobbie-wrapper row">
+                                                <div class="hobbie-icon col-md-5"><a><img src="images/sb-front.png"></a>
+                                                </div>
+                                                <div class="hobbie-description col-md-7">
+
+                                                    <p><strong>BSM Physics</strong> <br>Dynamics beyond the Standard Model can be studied by adding models in $\texttt{HEPfit}$.</p>
+                                                </div>
+                                                <div style="clear:both;"></div>
+                                            </div>
+                                            <p><strong>$\mathbf{\texttt{HEPfit}}$ website: </strong><a href="http://hepfit.roma1.infn.it">http://hepfit.roma1.infn.it</a><br>
+                                               <strong>$\mathbf{\texttt{HEPfit}}$ repository: </strong><a href="https://github.com/silvest/HEPfit">https://github.com/silvest/HEPfit</a></p>
+
                                             <div style="clear:both;"></div>
                                         </div>
                                         <div class="tab-pane fade" id="facts">
@@ -1213,11 +1222,11 @@
                                     <div class="back">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivam.</p>
                                         <div class="social-icons">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                                            <a href="#"><i class="fa fa fa-github"></i></a>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            <a href="#"><i class="fab fa fa-dribbble"></i></a>
+                                            <a href="#"><i class="fab fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1233,11 +1242,11 @@
                                     <div class="back">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivam.</p>
                                         <div class="social-icons">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                                            <a href="#"><i class="fa fa fa-github"></i></a>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            <a href="#"><i class="fab fa fa-dribbble"></i></a>
+                                            <a href="#"><i class="fab fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1253,11 +1262,11 @@
                                     <div class="back">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivam.</p>
                                         <div class="social-icons">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                                            <a href="#"><i class="fa fa fa-github"></i></a>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            <a href="#"><i class="fab fa fa-dribbble"></i></a>
+                                            <a href="#"><i class="fab fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1274,11 +1283,11 @@
                                     <div class="back">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivam.</p>
                                         <div class="social-icons">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                                            <a href="#"><i class="fa fa fa-github"></i></a>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            <a href="#"><i class="fab fa fa-dribbble"></i></a>
+                                            <a href="#"><i class="fab fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1851,8 +1860,8 @@
     messageStyle: "none"
     });
     </script>
-    </script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
-    <script src="https://kit.fontawesome.com/954679ed4f.js"></script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script type="text/javascript" src="js/fontawesome-free.js"></script>
 
     <!-- END PLUGIN SCRIPTS -->
 </body>
