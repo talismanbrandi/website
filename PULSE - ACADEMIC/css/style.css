@@ -976,7 +976,7 @@ ul.marquee li {
     cursor: pointer;
     font-family: Montserrat;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .tabs-left > .nav-tabs > li > a:hover,
@@ -1064,8 +1064,6 @@ ul.marquee li {
 }
 
 .about-section .tab-pane .hobbie-icon img {
-    /*background: url(../images/frame.png) no-repeat center top;*/
-    /*background-size: 140px 113px;*/
     border: 0px;
     height: 113px;
     width: 140px;
@@ -1084,6 +1082,17 @@ ul.marquee li {
 .about-section .tab-pane .facts-wrapper {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.about-section .tab-pane .facts-wrapper .facts-description {
+    /*position: absolute;*/
+    /*margin-left: -10px;*/
+    font-size: 14px;
+}
+
+.about-section .tab-pane .facts-wrapper .col-centered {
+    float: none;
+    margin: 0 auto;
 }
 
 .about-section .tab-pane .facts-wrapper i {
@@ -1200,7 +1209,7 @@ ul.marquee li {
 .resume-section .resume .resume-date span {
     width: 45px;
     display: block;
-    font-size: 10px;
+    font-size: 12px;
     height: 25px;
     line-height: 25px;
 }
@@ -1994,7 +2003,7 @@ ul.marquee li {
 .teaching-section .teaching .teaching-date span {
     width: 45px;
     display: block;
-    font-size: 10px;
+    font-size: 12px;
     height: 25px;
     line-height: 25px;
 }
