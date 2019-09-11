@@ -1055,6 +1055,7 @@ ul.marquee li {
     background-size: 150px;
     /*height: 128px;*/
     width: 150px;
+    float: left;
     display: block;
     margin: 0 auto;
     padding: 5px 5px 29px;
@@ -1067,6 +1068,7 @@ ul.marquee li {
     border: 0px;
     height: 113px;
     width: 140px;
+    float: left;
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -1074,9 +1076,35 @@ ul.marquee li {
 
 .about-section .tab-pane .hobbie-description {}
 
+.about-section .tab-pane .hobbie-description a {
+    background: url(../images/frame.png) no-repeat center top;
+    background-size: 150px;
+    /*height: 128px;*/
+    width: 150px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    /*margin: 0 auto;*/
+    padding: 5px 0px 20px 5px;
+}
+.about-section .tab-pane .hobbie-description a:hover {
+    opacity: 0.9;
+}
+
+.about-section .tab-pane .hobbie-description img {
+    border: 0px;
+    height: 113px;
+    width: 140px;
+    float: left;
+    display: block;
+    margin: 0 auto;
+}
+
 .about-section .tab-pane .hobbie-wrapper p {
     /*margin-top: 6px;*/
     text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about-section .tab-pane .facts-wrapper {
@@ -1093,6 +1121,7 @@ ul.marquee li {
 .about-section .tab-pane .facts-wrapper .col-centered {
     float: none;
     margin: 0 auto;
+
 }
 
 .about-section .tab-pane .facts-wrapper i {
