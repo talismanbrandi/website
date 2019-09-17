@@ -59,7 +59,7 @@ jQuery(document).ready(function($) {
                                 // animation parameters:
                                 // if vertically scrolling then the body will animate the scrollTop,
                                 // otherwise the scroller (div.hs-content-scroller) will animate the scrollLeft
-                                param = (is_v) ? {scrollTop: (isHome) ? top : top + $menu.outerHeight(true)} : {scrollLeft: left},
+                                param = (is_v) ? {scrollTop: (isHome) ? top : top + $menu.outerHeight(true)} : {scrollLeft: left - 500},
                         $elScroller = (is_v) ? $('html, body') : $scroller;
                         $elScroller.stop().animate(param, animation.speed, animation.easing);
                         $('nav a').removeClass('active-sec');
@@ -90,7 +90,7 @@ jQuery(document).ready(function($) {
                             $scroller.css('overflow-x', 'scroll');
                             break;
                         case (windowWidth > 1024) :
-                            $scroller.css('overflow', 'hidden');
+                            $scroller.css('overflow-x', 'scroll');
                             break;
                     }
                     ;
@@ -161,7 +161,7 @@ jQuery(document).ready(function($) {
                     });
 
                     $('.contact-button').on('click',function() {
-                        _saveState(8);
+                        _saveState(7);
                     });
 
                     // scrolls to the top of the page.

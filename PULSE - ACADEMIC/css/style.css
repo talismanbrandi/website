@@ -23,7 +23,7 @@ a {
 }
 
 a:active {
-    color: red;
+    color: steelblue;
     text-decoration: none;
 }
 
@@ -576,13 +576,13 @@ ul.marquee li {
 }
 
 .about-section .aboutInfo-contanier .map-location img {
-    opacity: .60;
+    /*opacity: .60;*/
     height: 40px;
     width: 40px;
 }
 
 .about-section .aboutInfo-contanier .map-location i {
-    opacity: .60;
+    /*opacity: .60;*/
     font-size: 40px;
 }
 
@@ -612,6 +612,11 @@ ul.marquee li {
     height: 30px;
     line-height: 30px;
     margin-bottom: 7px;
+}
+
+.about-section .about-cover .about-details a {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.61);
 }
 
 .about-section .about-cover .about-details .detail {
