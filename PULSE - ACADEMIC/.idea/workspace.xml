@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/HiggsPhysics-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/HiggsPhysics-front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sb-front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bsm-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bsm-front.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +84,7 @@
       <workItem from="1568017913690" duration="9541000" />
       <workItem from="1568682168427" duration="36000" />
       <workItem from="1568682247051" duration="44000" />
-      <workItem from="1568682310138" duration="7086000" />
+      <workItem from="1568682310138" duration="7390000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -111,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568689415256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="images modified">
+      <created>1568718538946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568718538947</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +147,7 @@
     <MESSAGE value="project files" />
     <MESSAGE value="some updates" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="images modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="images modified" />
   </component>
 </project>
