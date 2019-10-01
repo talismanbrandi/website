@@ -1274,7 +1274,7 @@ ul.marquee li {
     -moz-perspective: 800px;
     -webkit-perspective: 800px;
     perspective: 800px;
-    z-index: 999;
+    z-index: 5;
 }
 
 .publication-section .card-drop a {
@@ -1319,6 +1319,7 @@ ul.marquee li {
     -webkit-transition: 0.1s linear;
     transition: 0.1s linear;
     background-color: #f2f2f4;
+    /*z-index: 6;*/
 }
 
 .publication-section .card-drop > a.toggle:active {
@@ -3431,6 +3432,7 @@ screen and (max-height: 300px) {
         line-height: 40px;
         text-align: center;
         color: #fff;
+        z-index: 999;
     }
     #header_container {
         display: none;
