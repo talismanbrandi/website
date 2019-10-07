@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cac3b41-60da-449d-ad87-38e152b3d7ea" name="Default Changelist" comment="6">
+    <list default="true" id="7cac3b41-60da-449d-ad87-38e152b3d7ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/css/github-calendar-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/css/github-calendar-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/js/github-calendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/js/github-calendar.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567769404260</updated>
       <workItem from="1567769405666" duration="372000" />
-      <workItem from="1570405603291" duration="8890000" />
+      <workItem from="1570405603291" duration="13376000" />
     </task>
     <task id="LOCAL-00001" summary="github history added">
       <created>1570414110730</created>
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570414110731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="days">
+      <created>1570417758833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570417758833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="github history added" />
-    <option name="LAST_COMMIT_MESSAGE" value="github history added" />
+    <MESSAGE value="days" />
+    <option name="LAST_COMMIT_MESSAGE" value="days" />
   </component>
 </project>
