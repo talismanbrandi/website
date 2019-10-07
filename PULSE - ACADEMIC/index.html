@@ -35,6 +35,9 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600' rel='stylesheet' type='text/css'>
 
+    <!-- Github Calendar -->
+    <link rel="stylesheet" type="text/css" href="css/github-calendar-responsive.css"/>
+
     <script src="js/jquery.min.js"></script>
     <script>
         $(function(){
@@ -1536,7 +1539,6 @@
                         </div>
                         <span class="content-title">FUNCTIONAL PROGRAMMING</span>
                         <div class="skolls">
-
                             <span class="skill-description">Widely used several software packages for functional programming</span>
                             <div class="bar-main-container">
                                 <div class="wrap">
@@ -1563,6 +1565,13 @@
                                     <span class="label">Bayesian Analysis</span><span class="label">Markov Chain Monte Carlo</span><span class="label">Multivariate Methods</span>
                                     <div style="clear:both;"></div>
                                 </div>
+                            </div>
+                        </div>
+                        <span class="content-title">GITHUB HISTORY</span>
+                        <div class="skolls">
+                            <div class="calendar">
+                                <!-- Loading stuff -->
+                                Loading the data just for you.
                             </div>
                         </div>
                     </div>
@@ -1623,6 +1632,12 @@
     </script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <script type="text/javascript" src="js/fontawesome-free.js"></script>
+    <script src="js/github-calendar.min.js"></script>
+    <script>
+        // GitHubCalendar(".calendar", "talismanbrandi");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "talismanbrandi", { responsive: true });
+    </script>
 
     <!-- END PLUGIN SCRIPTS -->
 </body>

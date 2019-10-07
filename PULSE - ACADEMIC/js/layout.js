@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
                 // the browser nhistory object
                 History = window.History,
                 // animation options
-                animation = {speed: 800, easing: 'easeInOutQuad'},
+                animation = {speed: 500, easing: 'easeInOutQuad'},
         // jScrollPane options
         scrollOptions = {verticalGutter: 0, hideFocus: false, contentWidth: '0px'},
         // init function
@@ -51,15 +51,23 @@ jQuery(document).ready(function($) {
                             $article = $(section ? '#' + 'section' + section : '#' + 'section1');
                     if ($article.length) {
                         // left / top of the element
-                        var left = $article.position().left,
-                                top = $article.position().top,
-                                // check if we are scrolling down or left
-                                // is_v will be true when the screen size < 755
-                                is_v = ($(document).height() - $(window).height() > 0),
-                                // animation parameters:
-                                // if vertically scrolling then the body will animate the scrollTop,
-                                // otherwise the scroller (div.hs-content-scroller) will animate the scrollLeft
-                                param = (is_v) ? {scrollTop: (isHome) ? top : top + $menu.outerHeight(true)} : {scrollLeft: left - 500},
+                        var leftbias = 0;
+                        if ($(window).width() >= 2560) {
+                            leftbias = 1000
+                        } else if (($(window).width() >= 1440)) {
+                            leftbias = 500
+                        } else if (($(window).width() >= 1280)) {
+                            leftbias = 250
+                        }
+                        var left = $article.position().left - leftbias,
+                            top = $article.position().top,
+                            // check if we are scrolling down or left
+                            // is_v will be true when the screen size < 755
+                            is_v = ($(document).height() - $(window).height() > 0),
+                            // animation parameters:
+                            // if vertically scrolling then the body will animate the scrollTop,
+                            // otherwise the scroller (div.hs-content-scroller) will animate the scrollLeft
+                            param = (is_v) ? {scrollTop: (isHome) ? top : top + $menu.outerHeight(true)} : {scrollLeft: left},
                         $elScroller = (is_v) ? $('html, body') : $scroller;
                         $elScroller.stop().animate(param, animation.speed, animation.easing);
                         $('nav a').removeClass('active-sec');
