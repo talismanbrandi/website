@@ -16,7 +16,7 @@
 .contrib-legend {
     text-align: center;
     padding: 0 -10px 0 0px;
-    margin-top: 33px;
+    margin-top: 32px;
     /*display: inline-block;*/
     float: right;
 }
@@ -32,8 +32,8 @@
 
 .contrib-legend .legend li {
     /*display: inline-block;*/
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
 }
 
 .text-small {
