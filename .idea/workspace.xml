@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cac3b41-60da-449d-ad87-38e152b3d7ea" name="Default Changelist" comment="days">
+    <list default="true" id="7cac3b41-60da-449d-ad87-38e152b3d7ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +59,7 @@
       <updated>1567769404260</updated>
       <workItem from="1567769405666" duration="372000" />
       <workItem from="1570405603291" duration="13376000" />
-      <workItem from="1571845741332" duration="3082000" />
+      <workItem from="1571845741332" duration="3420000" />
     </task>
     <task id="LOCAL-00001" summary="github history added">
       <created>1570414110730</created>
@@ -77,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570417758833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some small fixes and resume updated">
+      <created>1571849296684</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571849296684</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="github history added" />
     <MESSAGE value="days" />
-    <option name="LAST_COMMIT_MESSAGE" value="days" />
+    <MESSAGE value="some small fixes and resume updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="some small fixes and resume updated" />
   </component>
 </project>
