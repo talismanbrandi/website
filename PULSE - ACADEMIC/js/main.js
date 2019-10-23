@@ -131,8 +131,8 @@ jQuery(document).ready(function($) {
     $('.bar-percentage[data-percentage]').each(function() {
         var progress = $(this);
         var percentage = Math.ceil($(this).attr('data-percentage'));
-        progress.text(percentage + '%');
-        progress.siblings().children().css('width', percentage + '%');
+        progress.text();
+        progress.siblings().children().css('width', 100 + '%');
     });
     /* ---------------------------------------------------------------------- */
     /* --------------------- SCROLL REINITIALISATION ------------------------ */

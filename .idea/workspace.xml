@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cac3b41-60da-449d-ad87-38e152b3d7ea" name="Default Changelist" comment="">
+    <list default="true" id="7cac3b41-60da-449d-ad87-38e152b3d7ea" name="Default Changelist" comment="days">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/js/github-calendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/js/github-calendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PULSE - ACADEMIC/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/PULSE - ACADEMIC/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="948" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
   </component>
   <component name="ProjectId" id="1RqrjK3PdF3rxen037dQ4O2Yr2S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,6 +61,7 @@
       <updated>1567769404260</updated>
       <workItem from="1567769405666" duration="372000" />
       <workItem from="1570405603291" duration="13376000" />
+      <workItem from="1571845741332" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="github history added">
       <created>1570414110730</created>
@@ -92,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
