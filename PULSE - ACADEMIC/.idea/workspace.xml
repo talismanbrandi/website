@@ -4,9 +4,8 @@
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/HiggsPhysics-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/HiggsPhysics-front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bsm-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bsm-front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/radar-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/radar-front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +107,9 @@
       <workItem from="1569631263573" duration="191000" />
       <workItem from="1569715776700" duration="8106000" />
       <workItem from="1570723383471" duration="989000" />
+      <workItem from="1572392052618" duration="91000" />
+      <workItem from="1572491438347" duration="1787000" />
+      <workItem from="1577407176212" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -186,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570723970184</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="publication updated">
+      <created>1572392128007</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1572392128007</updated>
+    </task>
+    <task id="LOCAL-00013" summary="publication updated">
+      <created>1572523894285</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1572523894285</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +240,7 @@
     <MESSAGE value="cv updated" />
     <MESSAGE value="z index fixed" />
     <MESSAGE value="image rescaled" />
-    <option name="LAST_COMMIT_MESSAGE" value="image rescaled" />
+    <MESSAGE value="publication updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="publication updated" />
   </component>
 </project>
