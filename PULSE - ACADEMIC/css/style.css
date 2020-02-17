@@ -193,7 +193,7 @@ a.hs-totop-link {
     display: block;
     width: 146px;
     height: 150px;
-    border: 5px solid rgba(120, 129, 149, 0.19);
+    border: 5px solid rgba(120, 129, 149, 0.30);
     margin: auto;
 }
 
@@ -201,7 +201,8 @@ a.hs-totop-link {
     width: 136px;
     height: 140px;
     padding: 5px;
-    opacity: 0.5;
+    opacity: 0.75;
+    z-index: 999;
 }
 
 .hs-headline .profile_info {
@@ -212,7 +213,8 @@ a.hs-totop-link {
     font-size: 19px;
     line-height: 30px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 900;
+    color: #aeaeae;
     margin: 0px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -222,13 +224,15 @@ a.hs-totop-link {
     text-align: center;
     font-size: 13px;
     margin: 10px 0;
-    font-weight: 300;
+    color: #aeaeae;
+    font-weight: 900;
 }
 
 .hs-headline .profile_info h6 {
     text-align: center;
     font-size: 13px;
-    font-weight: 400;
+    color: #aeaeae;
+    font-weight: 900;
     margin: 7px 0;
 }
 
@@ -431,7 +435,7 @@ a.hs-totop-link {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #788195;
+    color: #aeaeae;
 }
 /*--------------------------------------------------
 ----------------------- Header ---------------------
