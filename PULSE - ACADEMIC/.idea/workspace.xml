@@ -102,7 +102,8 @@
       <workItem from="1581941688062" duration="256000" />
       <workItem from="1581942086427" duration="1938000" />
       <workItem from="1586456554631" duration="11000" />
-      <workItem from="1589040802311" duration="2084000" />
+      <workItem from="1589040802311" duration="2465000" />
+      <workItem from="1595017684603" duration="1637000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581943883310</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update to website">
+      <created>1589046573017</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589046573017</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,24 +265,27 @@
     <MESSAGE value="publication and resume updated" />
     <MESSAGE value="podcast added" />
     <MESSAGE value="small mods" />
-    <option name="LAST_COMMIT_MESSAGE" value="small mods" />
+    <MESSAGE value="update to website" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to website" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="310" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581942112515">
       <screen x="0" y="0" width="1920" height="1151" />
     </state>
     <state x="648" y="310" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1151@0.0.1920.1151" timestamp="1581942112515" />
-    <state x="512" y="202" key="CommitChangelistDialog2" timestamp="1581943882900">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="1460" y="-898" key="CommitChangelistDialog2" timestamp="1589046572773">
+      <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
     <state x="512" y="202" key="CommitChangelistDialog2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1581943882900" />
+    <state x="1460" y="-898" key="CommitChangelistDialog2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1589046572773" />
     <state x="679" y="318" key="RollbackChangesDialog" timestamp="1581943809247">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="679" y="318" key="RollbackChangesDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1581943809247" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1581943888428">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1589046855369">
+      <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
     <state x="560" y="340" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1581943888428" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1589046855369" />
   </component>
 </project>
