@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +124,8 @@
       <workItem from="1589040802311" duration="2465000" />
       <workItem from="1595017684603" duration="1948000" />
       <workItem from="1601422176496" duration="1270000" />
-      <workItem from="1603668623332" duration="153000" />
+      <workItem from="1603668623332" duration="358000" />
+      <workItem from="1606869852629" duration="3510000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -240,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601423334229</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update to website">
+      <created>1603668983055</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603668983056</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,13 +312,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="update to website" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1460" y="-898" key="CommitChangelistDialog2" timestamp="1601423333943">
+    <state x="1460" y="-898" key="CommitChangelistDialog2" timestamp="1603668982772">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1460" y="-898" key="CommitChangelistDialog2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1601423333943" />
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1601423341560">
+    <state x="1460" y="-898" key="CommitChangelistDialog2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1603668982772" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1603668988543">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1601423341560" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1603668988543" />
+    <state x="1615" y="-814" width="586" height="548" key="find.popup" timestamp="1606873870628">
+      <screen x="948" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1615" y="-814" width="586" height="548" key="find.popup/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1606873870628" />
   </component>
 </project>
