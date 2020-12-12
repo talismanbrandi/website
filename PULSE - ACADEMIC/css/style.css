@@ -318,7 +318,7 @@ a.hs-totop-link {
 
 .hs-menu nav a .menu_name {
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 40px;
     font-family: Montserrat;
 }
@@ -346,6 +346,22 @@ a.hs-totop-link {
     margin-right: auto;
     width: 70px;
     opacity: 0.4;
+}
+
+.hs-menu .sidebar-links {
+    position: absolute;
+    top: 700px;
+    height: 45px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.hs-menu .sidebar-links a:hover {
+    color: #fff;
 }
 
 .hs-menu .aside-footer {
