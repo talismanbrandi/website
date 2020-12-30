@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/github-calendar-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/github-calendar-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +131,9 @@
       <workItem from="1601422176496" duration="1270000" />
       <workItem from="1603668623332" duration="358000" />
       <workItem from="1606869852629" duration="4140000" />
-      <workItem from="1607813671033" duration="5397000" />
+      <workItem from="1607813671033" duration="6203000" />
+      <workItem from="1608383088206" duration="13000" />
+      <workItem from="1609335089043" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -300,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607819418412</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixed colors">
+      <created>1607819943802</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607819943802</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,17 +356,18 @@
     <MESSAGE value="website update" />
     <MESSAGE value="fixed the github calendar" />
     <MESSAGE value="updated resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated resume" />
+    <MESSAGE value="fixed colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed colors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1460" y="-898" key="CommitChangelistDialog2" timestamp="1603668982772">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1460" y="-898" key="CommitChangelistDialog2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1603668982772" />
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1607819426919">
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1607819951719">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1607819426919" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1607819951719" />
     <state x="1615" y="-814" width="586" height="548" key="find.popup" timestamp="1606873870628">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>

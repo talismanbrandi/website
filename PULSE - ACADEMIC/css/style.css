@@ -351,9 +351,9 @@ a.hs-totop-link {
 .hs-menu .sidebar-links {
     position: absolute;
     top: 700px;
-    height: 45px;
+    height: 25px;
     width: 100%;
-    line-height: 50px;
+    line-height: 25px;
     text-align: center;
     font-size: 15px;
     font-weight: 600;
