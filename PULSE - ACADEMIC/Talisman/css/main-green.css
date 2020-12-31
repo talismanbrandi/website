@@ -898,6 +898,7 @@ p {
 .svg-icon__border {
   fill: none;
   stroke: #132a46;
+  stroke-width: 3px;
   width: 90px;
   height: 90px;
   stroke-dasharray: 360px, 360px;
@@ -953,14 +954,20 @@ p {
 .c-timeline__time {
   position: absolute;
   top: 4px;
-  left: -90px;
+  left: -100px;
   font-size: 0.75rem;
   line-height: 1.5;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Lora", sans-serif; }
-  @media (min-width: 600px) {
+  @media (min-width: 1024px) {
     .c-timeline__time {
       left: -120px; } }
+@media (min-width: 1024px) {
+  .c-timeline__time {
+    top: 0px;
+    font-size: 1.0rem;
+  }
+}
 
 .c-timeline__line {
   position: absolute;
@@ -972,17 +979,17 @@ p {
   left: -20px; }
   @media (min-width: 600px) {
     .c-timeline__line {
-      left: -35px; } }
+      left: -25px; } }
   .c-timeline__line::before {
     content: "";
     position: absolute;
     display: block;
-    width: 2px;
+    width: 3px;
     background: #81b3ab;
     height: 9999px;
     top: 0;
     left: 50%;
-    margin-left: -1px; }
+    margin-left: -1.5px; }
 
 .c-card {
   position: relative; }
@@ -7802,6 +7809,11 @@ p {
       color: #505050; }
       .nav-fixed .c-main-nav__link span {
         color: #81b3ab; } }
+@media (max-width: 1024px) {
+  .nav-fixed {
+    margin-right: 10px;
+  }
+}
 
 @media (min-width: 900px) {
   .nav-fixed > .nav-fixed--is-active {
