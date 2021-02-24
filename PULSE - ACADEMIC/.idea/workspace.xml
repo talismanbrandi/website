@@ -20,8 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CoVis/components/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/components/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/css/main-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/css/main-green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/css/preview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/css/preview.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/fonts/icofont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/fonts/icofont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/fonts/icofont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/img/hero-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/js/inview.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/js/jquery.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/pic/AyanPaul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/pic/HK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/pic/KS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoVis/pic/net.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Talisman/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Talisman/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +153,10 @@
       <workItem from="1606869852629" duration="4140000" />
       <workItem from="1607813671033" duration="6203000" />
       <workItem from="1608383088206" duration="13000" />
-      <workItem from="1609335089043" duration="10262000" />
+      <workItem from="1609335089043" duration="11920000" />
+      <workItem from="1611236375638" duration="445000" />
+      <workItem from="1614172238546" duration="613000" />
+      <workItem from="1614172867980" duration="9414000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -337,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609383913274</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="some minor fixes">
+      <created>1609385264239</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1609385264239</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,24 +418,29 @@
     <MESSAGE value="added Project Talisman" />
     <MESSAGE value="new tabs for external links" />
     <MESSAGE value="some minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some minor fixes" />
+    <MESSAGE value="CoVis Project website" />
+    <option name="LAST_COMMIT_MESSAGE" value="CoVis Project website" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1460" y="-898" key="CommitChangelistDialog2" timestamp="1603668982772">
+    <state x="1646" y="-789" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614184344097">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1460" y="-898" key="CommitChangelistDialog2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1603668982772" />
-    <state x="1048" y="-980" width="1720" height="880" key="DiffContextDialog" timestamp="1609370515064">
+    <state x="1646" y="-789" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614184344097" />
+    <state x="1048" y="-980" width="1720" height="880" key="DiffContextDialog" timestamp="1609385278974">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1048" y="-980" width="1720" height="880" key="DiffContextDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1145@948.-1080.1920.1080" timestamp="1609370515064" />
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1609383919202">
+    <state x="1048" y="-980" width="1720" height="880" key="DiffContextDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1145@948.-1080.1920.1080" timestamp="1609385278974" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1609385273313">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1609383919202" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1609385273313" />
     <state x="1615" y="-814" width="586" height="548" key="find.popup" timestamp="1606873870628">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1615" y="-814" width="586" height="548" key="find.popup/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1606873870628" />
+    <state x="1573" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1614182356921">
+      <screen x="948" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1573" y="-839" width="670" height="676" key="search.everywhere.popup/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614182356921" />
   </component>
 </project>
