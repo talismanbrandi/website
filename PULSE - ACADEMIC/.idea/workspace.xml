@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sciento/.idea/sciento.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoVis/css/main-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/CoVis/css/main-green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoVis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CoVis/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Talisman/css/main-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/Talisman/css/main-green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/github-calendar-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/github-calendar-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/github-calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/github-calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/github-calendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/github-calendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talisman/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Talisman/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,7 @@
       <workItem from="1609335089043" duration="11920000" />
       <workItem from="1611236375638" duration="445000" />
       <workItem from="1614172238546" duration="613000" />
-      <workItem from="1614172867980" duration="16722000" />
+      <workItem from="1614172867980" duration="18596000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -393,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614271738386</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fixed bugs and colors">
+      <created>1614290270058</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1614290270058</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +452,8 @@
     <MESSAGE value="new tabs for external links" />
     <MESSAGE value="some minor fixes" />
     <MESSAGE value="CoVis Project website" />
-    <option name="LAST_COMMIT_MESSAGE" value="CoVis Project website" />
+    <MESSAGE value="fixed bugs and colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs and colors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1646" y="-789" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614184344097">
@@ -459,10 +468,10 @@
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1634" y="-834" key="RollbackChangesDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614289912135" />
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1614271742581">
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1614290276231">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614271742581" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614290276231" />
     <state x="1615" y="-814" width="586" height="548" key="find.popup" timestamp="1606873870628">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>

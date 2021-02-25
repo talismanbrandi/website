@@ -521,7 +521,7 @@ p {
   font-size: 0.75rem;
   line-height: 1.75;
   border: 1px solid #b7b7b7; }
-  .c-form input:placeholder, .c-form textarea:placeholder {
+  .c-form input::placeholder, .c-form textarea::placeholder {
     color: #aeaeae; }
   .c-form input:valid, .c-form textarea:valid {
     -webkit-box-shadow: inset 0px 0px 6px 0px #69537e;
@@ -541,6 +541,8 @@ p {
   -webkit-box-sizing: none;
           box-sizing: none;
   outline: none;
+  margin-right: 24px;
+  margin-bottom: 16px;
   padding-top: 14px;
   padding-bottom: 14px;
   font-family: "Lato", sans-serif;
