@@ -22,7 +22,6 @@
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoVis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CoVis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoVis/pic/HK.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <workItem from="1609335089043" duration="11920000" />
       <workItem from="1611236375638" duration="445000" />
       <workItem from="1614172238546" duration="613000" />
-      <workItem from="1614172867980" duration="13580000" />
+      <workItem from="1614172867980" duration="13769000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -355,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614185422667</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="CoVis Project website">
+      <created>1614267062544</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1614267062544</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
