@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoVis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CoVis/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +134,7 @@
       <workItem from="1609335089043" duration="11920000" />
       <workItem from="1611236375638" duration="445000" />
       <workItem from="1614172238546" duration="613000" />
-      <workItem from="1614172867980" duration="13769000" />
+      <workItem from="1614172867980" duration="13971000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -361,7 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614267062544</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="CoVis Project website">
+      <created>1614267246649</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1614267246649</updated>
+    </task>
+    <task id="LOCAL-00034" summary="CoVis Project website">
+      <created>1614267359483</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1614267359483</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,10 +436,10 @@
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1048" y="-980" width="1720" height="880" key="DiffContextDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1145@948.-1080.1920.1080" timestamp="1609385278974" />
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1614185442305">
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1614267368360">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614185442305" />
+    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614267368360" />
     <state x="1615" y="-814" width="586" height="548" key="find.popup" timestamp="1606873870628">
       <screen x="948" y="-1080" width="1920" height="1080" />
     </state>
