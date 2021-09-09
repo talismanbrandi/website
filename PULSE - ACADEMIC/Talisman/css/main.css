@@ -1165,8 +1165,8 @@ p {
     margin-bottom: 45px; }
 
 .c-article__image {
-  -webkit-filter: sepia(60%);
-          filter: sepia(60%);
+  /*-webkit-filter: sepia(60%);*/
+  /*        filter: sepia(60%);*/
   width: calc(20% - 4px);
   display: none;
   position: relative;

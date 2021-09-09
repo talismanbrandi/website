@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3a456f-29a0-4cac-a610-a61a94c76556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sciento/.idea/sciento.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Talisman/pic/PR.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoVis/css/main-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/CoVis/css/main-green.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoVis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CoVis/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Talisman/css/main-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/Talisman/css/main-green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Talisman/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Talisman/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talisman/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Talisman/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talisman/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Talisman/pic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,6 +84,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Talisman/pic" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -140,7 +141,12 @@
       <workItem from="1609335089043" duration="11920000" />
       <workItem from="1611236375638" duration="445000" />
       <workItem from="1614172238546" duration="613000" />
-      <workItem from="1614172867980" duration="18596000" />
+      <workItem from="1614172867980" duration="19425000" />
+      <workItem from="1614373609940" duration="550000" />
+      <workItem from="1614531533435" duration="2634000" />
+      <workItem from="1614537921536" duration="11000" />
+      <workItem from="1614716823760" duration="904000" />
+      <workItem from="1631213321134" duration="3576000" />
     </task>
     <task id="LOCAL-00001" summary="project files">
       <created>1567769890218</created>
@@ -401,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614290270058</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fixed bugs and colors">
+      <created>1614296898152</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614296898152</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update">
+      <created>1614717330485</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1614717330485</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,32 +473,14 @@
     <MESSAGE value="some minor fixes" />
     <MESSAGE value="CoVis Project website" />
     <MESSAGE value="fixed bugs and colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs and colors" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1646" y="-789" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614184344097">
-      <screen x="948" y="-1080" width="1920" height="1080" />
+    <state x="1474" y="-929" width="886" height="777" key="find.popup" timestamp="1631215334415">
+      <screen x="815" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1646" y="-789" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614184344097" />
-    <state x="1048" y="-980" width="1720" height="880" key="DiffContextDialog" timestamp="1609385278974">
-      <screen x="948" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="1048" y="-980" width="1720" height="880" key="DiffContextDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1145@948.-1080.1920.1080" timestamp="1609385278974" />
-    <state x="1634" y="-834" key="RollbackChangesDialog" timestamp="1614289912135">
-      <screen x="948" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="1634" y="-834" key="RollbackChangesDialog/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614289912135" />
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2" timestamp="1614290276231">
-      <screen x="948" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="1508" y="-774" key="Vcs.Push.Dialog.v2/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614290276231" />
-    <state x="1615" y="-814" width="586" height="548" key="find.popup" timestamp="1606873870628">
-      <screen x="948" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="1615" y="-814" width="586" height="548" key="find.popup/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1606873870628" />
-    <state x="1573" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1614182356921">
-      <screen x="948" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="1573" y="-839" width="670" height="676" key="search.everywhere.popup/-972.-1080.1920.1080/948.-1080.1920.1080/0.0.1920.1200@948.-1080.1920.1080" timestamp="1614182356921" />
+    <state x="1474" y="-929" width="602" height="777" key="find.popup/-1105.-1055.1920.1055/815.-1080.1920.1080/0.25.1920.1175@815.-1080.1920.1080" timestamp="1631215227606" />
+    <state x="1474" y="-929" width="886" height="777" key="find.popup/-1105.-1080.1920.1080/815.-1080.1920.1080/0.0.1920.1200@815.-1080.1920.1080" timestamp="1631215334415" />
   </component>
 </project>
